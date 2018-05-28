@@ -7,8 +7,11 @@ tags:
 ---
 
 > 原理就是利用绝对路径加载Library项目，其本身是可以抽离出去单独作为一个项目维护的。
+
 > 在`angular 6`发布之前一直实用的`ng-packagr`手动构建angular library。
+
 > `angular 6`发布后可以通过`ng g library xxx` 自动生成lib项目，但是目前还不够完善，不支持实时编译，还有待完善。
+
 > 本文主要是优化library项目在开发阶段和project项目之间的调试问题。
 
 ## 目录结构

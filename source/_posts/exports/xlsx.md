@@ -21,6 +21,9 @@ import * as XLSX from 'xlsx';
 
 xlsx支持多种格式导出，具体可以参考官方文档[github](https://github.com/SheetJS/js-xlsx)
 
+> [demo](https://stackblitz.com/edit/angular-pzkjbz)
+
+
 ```ts
 class Export {
   private _wb: XLSX.WorkBook = XLSX.utils.book_new();

@@ -64,6 +64,19 @@ yarn add --dev conventional-changelog-cli
 }
 ```
 
+# Branch Management
+
+该分支模型值得借鉴的地方包括
+
+- 规范的分支命名
+- 将分支和代码运行环境关联起来
+
+分支和代码运行环境的关系是这样的，
+
+- master => 生产环境
+- release/*，hotfix/* => 预上线环境
+- feature/*，develop => 开发环境
+
 
 # Refs
 - [Commit message 和 Change log 编写指南](http://www.ruanyifeng.com/blog/2016/01/commit_message_change_log.html)

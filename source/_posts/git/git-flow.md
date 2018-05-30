@@ -8,7 +8,7 @@ tags:
 
 # Generate the Commit Message
 ## Install `commitizen`
-```shell
+```bash
 # install
 yarn global add commitizen
 
@@ -21,7 +21,7 @@ commitizen init cz-conventional-changelog --save --save-exact
 
 > [husky hooks](https://github.com/typicode/husky/blob/master/HOOKS.md)
 
-```shell
+```bash
 yarn add husky --dev
 ```
 
@@ -30,7 +30,7 @@ yarn add husky --dev
 > [commitlint](https://github.com/marionebl/commitlint#getting-started)
 
 ### Installation
-```shell
+```bash
 # Install commitlint cli and angular config
 yarn add --dev @commitlint/{config-conventional,cli}
 # For Windows:
@@ -51,7 +51,7 @@ echo "module.exports = {extends: ['@commitlint/config-conventional']}" > commitl
 
 # Generate ChangeLog
 ## Install `conventional-changelog-cli`
-```shell
+```bash
 yarn add --dev conventional-changelog-cli
 ```
 

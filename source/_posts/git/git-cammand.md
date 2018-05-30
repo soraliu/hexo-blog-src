@@ -9,13 +9,13 @@ tags: [git, cli]
 
 ## 回退到制定版本
 
-```shell
+```bash
 git log #查看版本提交日志
 git reset --hard 61e0e8b94667afe99c8dcd4f954ad69d0d6f49e8 
 ```
 
 ## 列出远程tag列表
 
-```shell
+```bash
 git ls-remote --tag
 ```

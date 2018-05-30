@@ -6,7 +6,7 @@ tags: [nginx, config]
 
 ## 安装nginx
 
-```shell
+```bash
 brew install nginx
 ```
 
@@ -161,18 +161,18 @@ server {
 
 # 验证配置文件
 
-```shell
+```bash
 nginx -t
 ```
 
 # 启动nginx
 
-```shell
+```bash
 nginx
 ```
 
 # 重启或重加载配置文件
 
-```shell
+```bash
 nginx -s reload
 ```

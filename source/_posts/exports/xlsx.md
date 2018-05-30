@@ -7,7 +7,7 @@ tags:
 
 ## Step 1. 安装依赖 `xlsx`
 
-```shell
+```bash
 yarn add xlsx
 ```
 

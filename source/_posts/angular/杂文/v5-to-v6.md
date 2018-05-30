@@ -8,14 +8,14 @@ tags:
 
 ## 安装v8版node lts
 
-```shell
+```bash
 # now is 8.11.2
 sudo n lts
 ```
 
 ## 升级 `@angular/cli`
 
-```shell
+```bash
 npm uninstall -g @angular/cli
 npm cache verify
 npm i -g @angular/cli@6.0.0
@@ -52,14 +52,14 @@ npm i -g @angular/cli@6.0.0
 
 ## 重装 `node_modules`
 
-```shell
+```bash
 rm -rf node_modules
 yarn install
 ```
 
 ## 删除`.angular-cli.json`，添加`.angular.json`
 
-```shell
+```bash
 ng update @angular/cli --migrate-only --from=1.7.4
 ```
 

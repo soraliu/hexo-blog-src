@@ -28,14 +28,15 @@ tags:
   - 函数内部可以使用作用域链上的变量，但取不到未执行的变量
 - 获取用户输入 `read`
   - `-p` 允许输入提示
+- 全局变量
+  - `$0` 脚本执行路径
+- 命令
+  - `dirname $path` 获取 `$path` 上层目录
+    - `path=/path/to/filename`
+    - `$(dirname $path) # /path/to`
 
 ```bash
 #!/bin/bash
-for var in "a a" b c; do
-  echo $var; # a a, b, c
-done
-
-
 ROOT=$PWD;
 echo '$PWD'; # $PWD
 echo "$PWD"; # /path/to
@@ -69,5 +70,11 @@ createDir test
 
 after="after...";
 
+for var in "a a" b c; do
+  echo $var; # a a, b, c
+done
+
+echo $0; # 执行路径
+echo $(dirname $0); # 获取上层目录
 ```
 

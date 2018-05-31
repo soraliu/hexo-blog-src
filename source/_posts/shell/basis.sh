@@ -1,4 +1,7 @@
 #!/bin/bash
+echo $0;
+echo $(dirname $0);
+
 for var in "a a" b c; do
   echo $var;
 done

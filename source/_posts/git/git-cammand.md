@@ -19,3 +19,12 @@ git reset --hard 61e0e8b94667afe99c8dcd4f954ad69d0d6f49e8
 ```bash
 git ls-remote --tag
 ```
+
+## 检出所有远程分支
+
+```bash
+for branch in $(git branch --all | grep '^\s*remotes' | egrep --invert-match '(:?HEAD|master)$'); do
+    git branch --track "${branch##*/}" "$branch" 2>/dev/null
+done
+```
+

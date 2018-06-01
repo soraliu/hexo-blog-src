@@ -77,6 +77,21 @@ yarn add --dev conventional-changelog-cli
 - release/*，hotfix/* => 预上线环境
 - feature/*，develop => 开发环境
 
+# `git flow` Installation
+
+## Mac
+
+```bash
+brew install git-flow
+```
+
+## Linux
+
+```bash
+curl -OL https://raw.github.com/nvie/gitflow/develop/contrib/gitflow-installer.sh
+chmod +x gitflow-installer.sh
+sudo ./gitflow-installer.sh
+```
 
 # Refs
 - [Commit message 和 Change log 编写指南](http://www.ruanyifeng.com/blog/2016/01/commit_message_change_log.html)

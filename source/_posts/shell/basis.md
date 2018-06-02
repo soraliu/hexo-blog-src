@@ -78,3 +78,13 @@ echo $0; # 执行路径
 echo $(dirname $0); # 获取上层目录
 ```
 
+
+## Refs
+- [shell if 多条件 或 泛匹配](http://blog.51cto.com/lynnteng0/798365)
+- [How to iterate over arguments in a Bash script](https://stackoverflow.com/questions/255898/how-to-iterate-over-arguments-in-a-bash-script)
+- [Check if a directory exists in a shell script](https://stackoverflow.com/questions/59838/check-if-a-directory-exists-in-a-shell-script)
+- [How to prompt user for input in shell script?](https://stackoverflow.com/questions/42453262/how-to-prompt-user-for-input-in-shell-script)
+- [Compare a string in Unix](https://stackoverflow.com/questions/10849297/compare-a-string-in-unix)
+- [Linux shell 中$() ` ` 作用与区别](https://blog.csdn.net/x1269778817/article/details/46535729)
+
+

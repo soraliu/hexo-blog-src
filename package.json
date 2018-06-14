@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "build": "hexo clean && hexo g && hexo d",
-    "pub": "git add . && git commit -m \"pub\" && npm run build",
+    "pub": "sh commit.sh && npm run build",
     "postpub": "git push"
   },
   "hexo": {

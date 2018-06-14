@@ -59,5 +59,13 @@ git stash drop 3
 git stash clear
 ```
 
+## 从储藏中创建分支
+
+```bash
+# 创建一个新的分支，检出你储藏工作时的所处的提交，重新应用你的工作，如果成功，将会丢弃储藏
+git stash branch stash/branchName 3
+```
+
+
 ## Refs
 - [Git-工具-储藏](https://git-scm.com/book/zh/v1/Git-%E5%B7%A5%E5%85%B7-%E5%82%A8%E8%97%8F%EF%BC%88Stashing%EF%BC%89)

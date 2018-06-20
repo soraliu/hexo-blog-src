@@ -31,8 +31,6 @@ yarn add husky --dev
 
 ### Installation
 ```bash
-# Install commitlint cli and angular config
-yarn add --dev @commitlint/{config-conventional,cli}
 # For Windows:
 yarn add --dev @commitlint/config-conventional @commitlint/cli
 

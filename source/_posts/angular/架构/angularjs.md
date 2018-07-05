@@ -1,7 +1,7 @@
 ---
 title: 浅谈angularjs架构演进
 date: 2018-06-25 21:48:06
-layout: false
+layout: draft
 tags:
 - angularjs
 - architecture

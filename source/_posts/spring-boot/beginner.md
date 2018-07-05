@@ -84,4 +84,8 @@ scp target/xxx.jar user@ip:xxx.jar
 java -jar xxx.jar
 ```
 
+## Refs
+
+-[How to install Java on CentOS 7](https://linuxize.com/post/install-java-on-centos-7/)
+-[Building a RESTful Web Service](http://spring.io/guides/gs/rest-service/#initial)
 

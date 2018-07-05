@@ -1,8 +1,8 @@
 ---
-title: spring boot Building a RESTful Web Service
+title: Spring Boot Building a RESTful Web Service
 date: 2018-07-05 10:14:42
 tags:
-- spring-boot
+- spring boot
 ---
 
 ## 创建项目
@@ -82,6 +82,37 @@ yum install java-1.8.0-openjdk
 ```bash
 scp target/xxx.jar user@ip:xxx.jar
 java -jar xxx.jar
+```
+
+## Summery
+
+1. 创建REST项目需要添加 `spring-boot-starter-web` 依赖
+
+```xml
+<dependency>
+  <groupId>org.springframework.boot</groupId>
+  <artifactId>spring-boot-starter-web</artifactId>
+</dependency>
+```
+
+2. 通过注解的方式关联API请求
+
+```java
+@RestController
+
+// 映射路径，方法，默认值等
+@RequestMapping
+@GetMapping
+@PostMapping
+@PutMapping
+@DeleteMapping
+
+// 映射参数
+@RequestParam
+@RequestBody
+
+// 映射返回值
+@ResponseBody
 ```
 
 ## Refs

@@ -48,6 +48,12 @@ docker stop centos-ng-v0.0.2
 docker ps -a
 ```
 
+- 删除容器
+
+```bash
+docker rm centos-ng-v0.0.2
+```
+
 - 从容器导出镜像
 
 ```bash

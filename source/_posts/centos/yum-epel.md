@@ -1,5 +1,5 @@
 ---
-title: centos 7 设置 yum epel 源
+title: centos 7 设置 yum 换源
 date: 2018-06-02 01:17:45
 tags:
 - centos7

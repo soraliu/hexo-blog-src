@@ -24,6 +24,9 @@ yum install gitlab-runner
 
 ```bash
 # register
+gitlab-runner register
+
+# register
 gitlab-runner register \
   --name runner-name \
   --url http://gitlab.example.com \

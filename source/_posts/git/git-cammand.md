@@ -28,3 +28,10 @@ for branch in $(git branch --all | grep '^\s*remotes' | egrep --invert-match '(:
 done
 ```
 
+## 删除所有远程tag
+
+```bash
+# xargs -p 可打印出将执行的命令
+git tag | xargs -n1 git push origin --delete
+```
+

@@ -106,3 +106,8 @@ const routes: Routes = [{
 }];
 ```
 
+## Refs
+- [angular.cn](https://angular.cn/api/router/RouteReuseStrategy)
+- [Angular路由复用策略](https://segmentfault.com/a/1190000011430157#articleHeader1)
+- [Angular 5.0 学习8：Angular路由复用策略 (切换页面内容不丢失，保持原来状态)](https://segmentfault.com/a/1190000014944087)
+

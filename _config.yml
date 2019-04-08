@@ -10,7 +10,7 @@ keywords: front-end architecture
 author: Sora Liu
 email: 475212506@qq.com
 language: zh-CN
-timezone: -480
+timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'

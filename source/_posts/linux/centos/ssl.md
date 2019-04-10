@@ -19,10 +19,17 @@ yum reinstall -y epel-release
 yum update -y
 ```
 
+## 安装certbot
+
+```bash
+sudo yum install certbot python2-certbot-nginx
+```
+
 ## 生成ssl
 
 ```bash
-certbot --nginx -d gitlab.example.com
+# 根据提示选择即可
+sudo certbot --nginx
 ```
 
 ## Issues

@@ -142,4 +142,8 @@ mermaid: ## mermaid url https://github.com/knsv/mermaid
   options:  # find more api options from https://github.com/knsv/mermaid/blob/master/src/mermaidAPI.js 
     #startOnload: true  // default true 
 
-# Theme - yilia
+# 自动生成sitemap
+sitemap:
+  path: sitemap.xml
+baidusitemap:
+  path: baidusitemap.xml

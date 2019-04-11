@@ -1337,10 +1337,10 @@ hexo-generator-archive@^0.1.4:
     hexo-pagination "0.0.2"
     object-assign "^2.0.0"
 
-hexo-generator-baidu-sitemap@^0.1.1:
+hexo-generator-baidu-sitemap@^0.1.6:
   version "0.1.6"
-  resolved "https://registry.yarnpkg.com/hexo-generator-baidu-sitemap/-/hexo-generator-baidu-sitemap-0.1.6.tgz#0ac2f89a62a28d9b5b9710fdd29d2e9425d54f04"
-  integrity sha512-8AAqiuMp0MriVC8lFeFn4Y6O1dPvEo/YHxJWBdaEevoYyfCOtwdunk21XTcIHPHH9voWaKTuC0RJ1Cdaz8KifQ==
+  resolved "http://registry.npm.taobao.org/hexo-generator-baidu-sitemap/download/hexo-generator-baidu-sitemap-0.1.6.tgz#0ac2f89a62a28d9b5b9710fdd29d2e9425d54f04"
+  integrity sha1-CsL4mmKijZtblxD90p0ulCXVTwQ=
   dependencies:
     ejs "^2.5.5"
     hexo "^3.0.0"
@@ -1379,7 +1379,7 @@ hexo-generator-json-content@^3.0.1:
 
 hexo-generator-sitemap@^1.2.0:
   version "1.2.0"
-  resolved "https://registry.yarnpkg.com/hexo-generator-sitemap/-/hexo-generator-sitemap-1.2.0.tgz#3018f8d7d1e2e42b3f71a65a7316ffcf583bc3f3"
+  resolved "http://registry.npm.taobao.org/hexo-generator-sitemap/download/hexo-generator-sitemap-1.2.0.tgz#3018f8d7d1e2e42b3f71a65a7316ffcf583bc3f3"
   integrity sha1-MBj419Hi5Cs/caZacxb/z1g7w/M=
   dependencies:
     minimatch "^3.0.0"

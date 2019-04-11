@@ -105,6 +105,8 @@ deploy:
   repo: git@github.com:lovesora/hexo-blog.git
   branch: master
 
+urlforgoogle: https://blog.lovesora.pro/
+
 sitemap:
     path: sitemap.xml
 

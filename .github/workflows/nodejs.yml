@@ -17,10 +17,14 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
-    - name: npm build
+    - name: Build
       run: |
         npm install
-        npm run build --if-present
-        npm run deploy
+        npm run build
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v2.5.0
       env:
-        CI: true
+        PERSONAL_TOKEN: ${{ secrets.GITHUB_ACTION_TOKEN }}
+        EXTERNAL_REPOSITORY: lovesora/hexo-blog
+        PUBLISH_BRANCH: master
+        PUBLISH_DIR: ./public

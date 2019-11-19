@@ -5,7 +5,7 @@
   "scripts": {
     "start": "hexo s",
     "deploy": "hexo d",
-    "build": "hexo clean && hexo g && hexo d",
+    "build": "hexo clean && hexo g",
     "prepub": "rm -rf public",
     "pub": "sh commit.sh && npm run build",
     "postpub": "git push"

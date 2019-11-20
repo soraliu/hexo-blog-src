@@ -585,16 +585,10 @@ order:
    Pipeline Task `build-skaffold-web` first,
    because it has no `from` or `runAfter` clauses
 1. `tutorial-pipeline-run-1-deploy-web` - This runs `deploy-web` second, because
-   its input](tasks.md#inputs) `web-image` comes [`from`](pipelines.md#from)
+   its input `web-image` comes `from`
    `build-skaffold-web` (therefore `build-skaffold-web` must run before
    `deploy-web`).
 
----
-
-Except as otherwise noted, the content of this page is licensed under the
-[Creative Commons Attribution 4.0 License](https://creativecommons.org/licenses/by/4.0/),
-and code samples are licensed under the
-[Apache 2.0 License](https://www.apache.org/licenses/LICENSE-2.0).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQ3Mzc0Nzc2LC0xMzY1MDA5MDJdfQ==
+eyJoaXN0b3J5IjpbMjE2Mjk5OTE3LC0xMzY1MDA5MDJdfQ==
 -->

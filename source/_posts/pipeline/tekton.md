@@ -12,15 +12,13 @@ tags:
 Welcome to the Tekton Pipeline tutorial!
 
 This tutorial will walk you through creating and running some simple
-`Tasks` & `Pipelines`](pipelines.md) and running them by creating
-[`TaskRuns`](taskruns.md) and [`PipelineRuns`](pipelineruns.md).
+`Tasks` & `Pipelines`and running them by creating
+`TaskRuns` and `PipelineRuns`.
 
 - [Creating a hello world `Task`](#task)
 - [Creating a hello world `Pipeline`](#pipeline)
 
 Before starting this tutorial, please install the [Tekton CLI](https://github.com/tektoncd/cli).
-
-For more details on using `Pipelines`, see [our usage docs](README.md).
 
 **Note:** [This tutorial can be run on a local workstation](#local-development)
 
@@ -30,7 +28,7 @@ The main objective of Tekton Pipelines is to run your Task individually or as a
 part of a Pipeline. Every `Task` runs as a Pod on your Kubernetes cluster with
 each step as its own container.
 
-A [`Task`](tasks.md) defines the work that needs to be executed, for example the
+A `Task` defines the work that needs to be executed, for example the
 following is a simple `Task` that will echo hello world:
 
 ```yaml
@@ -50,7 +48,7 @@ spec:
 
 The `steps` are a series of commands to be sequentially executed by the `Task`.
 
-A [`TaskRun`](taskruns.md) runs the `Task` you defined. Here is a simple example
+A `TaskRun` runs the `Task` you defined. Here is a simple example
 of a `TaskRun` you can use to execute your `Task`:
 
 ```yaml
@@ -119,11 +117,11 @@ In more common scenarios, a `Task` needs multiple steps with input and output
 resources to process. For example a `Task` could fetch source code from a GitHub
 repository and build a Docker image from it.
 
-[`PipelineResources`](resources.md) are used to define the artifacts that can be
+`PipelineResources` are used to define the artifacts that can be
 passed in and out of a `Task`. There are a few system defined resource types ready
 to use, and the following are two examples of the resources commonly needed.
 
-The [`git` resource](resources.md#git-resource) represents a git repository with
+The `git` resource represents a git repository with
 a specific revision:
 
 ```yaml
@@ -140,7 +138,7 @@ spec:
       value: https://github.com/GoogleContainerTools/skaffold #configure: change if you want to build something else, perhaps from your own local git repository.
 ```
 
-The [`image` resource](resources.md#image-resource) represents the image to be
+The `image` resource represents the image to be
 built by the `Task`:
 
 ```yaml
@@ -598,5 +596,5 @@ Except as otherwise noted, the content of this page is licensed under the
 and code samples are licensed under the
 [Apache 2.0 License](https://www.apache.org/licenses/LICENSE-2.0).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzA2NDM3NTMsLTEzNjUwMDkwMl19
+eyJoaXN0b3J5IjpbLTE0NTEwMDk3MjIsLTEzNjUwMDkwMl19
 -->

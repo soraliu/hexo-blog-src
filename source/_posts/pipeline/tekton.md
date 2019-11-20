@@ -1,5 +1,5 @@
 ---
-title: Tekton Pipeline Intro
+title: Tekton Pipeline Hello World Tutorial
 date: 2019-11-21 00:14:47
 tags:
 - github
@@ -598,5 +598,5 @@ Except as otherwise noted, the content of this page is licensed under the
 and code samples are licensed under the
 [Apache 2.0 License](https://www.apache.org/licenses/LICENSE-2.0).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjA2ODU5NDgsLTEzNjUwMDkwMl19
+eyJoaXN0b3J5IjpbMTgzMDg4NjM0LC0xMzY1MDA5MDJdfQ==
 -->

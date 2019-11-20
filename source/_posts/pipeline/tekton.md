@@ -12,7 +12,7 @@ tags:
 Welcome to the Tekton Pipeline tutorial!
 
 This tutorial will walk you through creating and running some simple
-[`Tasks`](tasks.md) & [`Pipelines`](pipelines.md) and running them by creating
+`Tasks` & `Pipelines`](pipelines.md) and running them by creating
 [`TaskRuns`](taskruns.md) and [`PipelineRuns`](pipelineruns.md).
 
 - [Creating a hello world `Task`](#task)
@@ -598,5 +598,5 @@ Except as otherwise noted, the content of this page is licensed under the
 and code samples are licensed under the
 [Apache 2.0 License](https://www.apache.org/licenses/LICENSE-2.0).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzMDg4NjM0LC0xMzY1MDA5MDJdfQ==
+eyJoaXN0b3J5IjpbLTEyMzA2NDM3NTMsLTEzNjUwMDkwMl19
 -->

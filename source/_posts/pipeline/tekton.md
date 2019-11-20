@@ -340,10 +340,10 @@ tkn taskrun logs build-docker-image-from-git-source-task-run
 
 ## Pipeline
 
-A [`Pipeline`](pipelines.md) defines a list of `Tasks` to execute in order, while
+A `Pipeline` defines a list of `Tasks` to execute in order, while
 also indicating if any outputs should be used as inputs of a following `Task` by
-using [the `from` field](pipelines.md#from) and also indicating
-[the order of executing (using the `runAfter` and `from` fields)](pipelines.md#ordering).
+using the `from` field and also indicating
+the order of executing (using the `runAfter` and `from` fields).
 The same variable substitution you used in `Tasks` is also available in a `Pipeline`.
 
 For example:
@@ -456,7 +456,7 @@ kubectl create clusterrolebinding tutorial-binding \
 ```
 
 
-To run the `Pipeline`, create a [`PipelineRun`](pipelineruns.md) as follows:
+To run the `Pipeline`, create a `PipelineRun`as follows:
 
 ```yaml
 apiVersion: tekton.dev/v1alpha1
@@ -565,7 +565,7 @@ Tekton Pipelines is known to work with:
 
 - Logs can remain in-memory only as opposed to sent to a service such as
   [Stackdriver](https://cloud.google.com/logging/).
-- See [docs on getting logs from Runs](logs.md)
+- See docs on getting logs from Runs
 
 Elasticsearch, Beats and Kibana can be deployed locally as a means to view logs:
 an example is provided at
@@ -579,13 +579,13 @@ and other nuances that may be specific to particular cloud providers or
 services.
 
 The `TaskRuns` have been created in the following
-[order](pipelines.md#ordering):
+order:
 
 1. `tutorial-pipeline-run-1-build-skaffold-web` - This runs the
-   [Pipeline Task](pipelines.md#pipeline-tasks) `build-skaffold-web` first,
-   because it has no [`from` or `runAfter` clauses](pipelines.md#ordering)
+   Pipeline Task `build-skaffold-web` first,
+   because it has no `from` or `runAfter` clauses
 1. `tutorial-pipeline-run-1-deploy-web` - This runs `deploy-web` second, because
-   its [input](tasks.md#inputs) `web-image` comes [`from`](pipelines.md#from)
+   its input](tasks.md#inputs) `web-image` comes [`from`](pipelines.md#from)
    `build-skaffold-web` (therefore `build-skaffold-web` must run before
    `deploy-web`).
 
@@ -596,5 +596,5 @@ Except as otherwise noted, the content of this page is licensed under the
 and code samples are licensed under the
 [Apache 2.0 License](https://www.apache.org/licenses/LICENSE-2.0).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTEwMDk3MjIsLTEzNjUwMDkwMl19
+eyJoaXN0b3J5IjpbMjQ3Mzc0Nzc2LC0xMzY1MDA5MDJdfQ==
 -->

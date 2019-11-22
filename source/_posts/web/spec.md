@@ -6,9 +6,14 @@ tag:
 - web
 ---
 
+## be
+
+- `/api` 为统一前缀
+
+
 ## fe
 
-- 几口
+- `cookie` 没有要求的话以 `根域` 为基础
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjIwNTE0NzUzXX0=
+eyJoaXN0b3J5IjpbLTc2NjE0OTk4Ml19
 -->

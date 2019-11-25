@@ -14,10 +14,7 @@ df -aTh
 ```
 
 
-|before| after |
-|--|--|
-| 40.9 |  |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDIxMjgwMjcsMzU5MjgzOTAzXX0=
+eyJoaXN0b3J5IjpbMjEyNjI1MDM3NywzNTkyODM5MDNdfQ==
 -->

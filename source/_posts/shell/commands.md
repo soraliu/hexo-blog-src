@@ -9,9 +9,9 @@ tag:
 ## Volume
 
 ```bash
-# 
+# Show Mounted Hard Drives Partition
 df -aTh
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczNDc1MTM2NF19
+eyJoaXN0b3J5IjpbMzU5MjgzOTAzXX0=
 -->

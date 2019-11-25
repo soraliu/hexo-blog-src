@@ -12,6 +12,9 @@ tag:
 # Show Mounted Hard Drives Partition
 df -aTh
 ```
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzU5MjgzOTAzXX0=
+eyJoaXN0b3J5IjpbMjEyNjI1MDM3NywzNTkyODM5MDNdfQ==
 -->

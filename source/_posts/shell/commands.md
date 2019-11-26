@@ -13,8 +13,18 @@ tag:
 df -aTh
 ```
 
+## Task
+
+```bash
+# parallel run task
+wget url1 &
+wget url2 &
+wait
+```
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyNjI1MDM3NywzNTkyODM5MDNdfQ==
+eyJoaXN0b3J5IjpbLTMzNjA3MTIsMjEyNjI1MDM3NywzNTkyOD
+M5MDNdfQ==
 -->

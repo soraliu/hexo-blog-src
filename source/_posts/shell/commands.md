@@ -22,10 +22,17 @@ wget url2 &
 wait
 ```
 
+```bash
+# calc command time
+time cp a_large_file .
+```
+
+
+
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTYwNTg1MjIsLTMzNjA3MTIsMjEyNj
+eyJoaXN0b3J5IjpbLTE5MjY5MDMzNjgsLTMzNjA3MTIsMjEyNj
 I1MDM3NywzNTkyODM5MDNdfQ==
 -->

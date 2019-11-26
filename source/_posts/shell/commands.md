@@ -32,6 +32,10 @@ time cp a_large_file .
 ```bash
 # tar zip
 tar -czf /path/to/archive.zip /src/to/be/zipped
+
+# tar unzip
+# notice: This will be extracted to /src/to/be/zipped
+# not /zipped
 tar -xzf /path/to/archive.zip -C /
 ```
 
@@ -40,6 +44,6 @@ tar -xzf /path/to/archive.zip -C /
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzcxMDUwOTQxLC0xOTI2OTAzMzY4LC0zMz
-YwNzEyLDIxMjYyNTAzNzcsMzU5MjgzOTAzXX0=
+eyJoaXN0b3J5IjpbLTEzMzg5OTg3MDUsLTE5MjY5MDMzNjgsLT
+MzNjA3MTIsMjEyNjI1MDM3NywzNTkyODM5MDNdfQ==
 -->

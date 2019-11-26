@@ -40,6 +40,8 @@ spec:
       persistentVolumeClaim:
         claimName: my-lamp-site-data
 ```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3MjA4MjE1MV19
+eyJoaXN0b3J5IjpbMjgzMjAwODM1LDEzNzIwODIxNTFdfQ==
 -->

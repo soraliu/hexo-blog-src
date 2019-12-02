@@ -15,11 +15,13 @@ tag:
 - node 上的 `volume`： EBS(RWO), EFS(RWX)等
 - s3
 
-EBS只支持 `ReadWriteOnly`, EFS支持 `ReadWriteMany`，由于我们的pipeline很可能会同时构建多次，所以需要支持 `RWX`  的 `EFS`，最开始我们在尝试的时候发现如果直接缓存不 `compress` 的话，传输性能存在瓶颈，总体构建时间反而降低，所以在上传之前我们先使用 tar (不压缩）
+EBS只支持 `ReadWriteOnly`, EFS支持 `ReadWriteMany`，由于我们的pipeline很可能会同时构建多次，所以需要支持 `RWX`  的 `EFS`，最开始我们在尝试的时候发现如果直接缓存不 `compress` 的话，传输性能存在瓶颈，总体构建时间反而降低，所以在上传之前我们先使用 tar (no compress) archive 一下。
 
 ### The cache of CRA
 
 > [webpack build cache](https://webpack.js.org/configuration/other-options/#cache)
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4MDcyMjgwMV19
+eyJoaXN0b3J5IjpbLTE1MjI3MDAzNDJdfQ==
 -->

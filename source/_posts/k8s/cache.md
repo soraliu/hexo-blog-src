@@ -17,10 +17,6 @@ tag:
 
 EBS只支持 `ReadWriteOnly`, EFS支持 `ReadWriteMany`，由于我们的pipeline很可能会同时构建多次，所以需要支持 `RWX`  的 `EFS`，最开始我们在尝试的时候发现如果直接缓存不 `compress` 的话，传输性能存在瓶颈，总体构建时间反而降低，所以在上传之前我们先使用 tar (no compress) archive 一下。
 
-### The cache of CRA
-
-> [webpack build cache](https://webpack.js.org/configuration/other-options/#cache)
-
 ```yaml
   steps:
   - name: restore-cache
@@ -35,7 +31,7 @@ EBS只支持 `ReadWriteOnly`, EFS支持 `ReadWriteMany`，由于我们的pipelin
     - -c
     - |
       mkdir -p ${CACHE_FOLDER}
-      export BUCKET_URL=s3://bnbstatic-archive
+      export BUCKET_URL=s3://build-cache
       aws s3 cp ${BUCKET_URL}/$(inputs.params.REPO_NAME)/${NODE_MODULES_TAR_NAME} ${CACHE_FOLDER}/${NODE_MODULES_TAR_NAME} || true
       aws s3 cp ${BUCKET_URL}/$(inputs.params.REPO_NAME)/${BUILD_FILE_TAR_NAME} ${CACHE_FOLDER}/${BUILD_FILE_TAR_NAME} || true
 
@@ -92,11 +88,16 @@ EBS只支持 `ReadWriteOnly`, EFS支持 `ReadWriteMany`，由于我们的pipelin
       tar -cf ${CACHE_FOLDER}/${BUILD_FILE_TAR_NAME} ${BUILD_FOLDER} || true
 
       # upload
-      export BUCKET_URL=s3://cache
+      export BUCKET_URL=s3://build-cache
       aws s3 cp ${CACHE_FOLDER}/${NODE_MODULES_TAR_NAME} ${BUCKET_URL}/$(inputs.params.REPO_NAME)/${NODE_MODULES_TAR_NAME}
       aws s3 cp ${CACHE_FOLDER}/${BUILD_FILE_TAR_NAME} ${BUCKET_URL}/$(inputs.params.REPO_NAME)/${BUILD_FILE_TAR_NAME}
-
 ```
+
+
+### Resources
+
+> [webpack build cache](https://webpack.js.org/configuration/other-options/#cache)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzE2MDc0ODAsLTE1MjI3MDAzNDJdfQ==
+eyJoaXN0b3J5IjpbLTEwMTQwNDIxMDQsLTE1MjI3MDAzNDJdfQ
+==
 -->

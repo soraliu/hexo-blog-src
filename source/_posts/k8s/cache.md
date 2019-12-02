@@ -9,11 +9,15 @@ tag:
 ## Build Cache
 我们在做pipeline相关优化的时候，一个很重要的指标就是构建时间，最基本的优化就是构建缓存。
 
-基本思路就是每次 `build` 之前 `restore` 上次的缓存，构建完成后 `rebuild` 当前缓存，`cache` 我们试过很多种: `ebs`, `efs`, `s3`，最开始我们尝试过缓存 `node_modules`，
+基本思路就是每次 `build` 之前 `restore` 上次的缓存，构建完成后 `rebuild` 当前缓存。
+
+`cache` 我们试过几种种:
+- node 上的 `volume`： ebs(RWO), efs(RWX)等
+- s3
 
 ### The cache of CRA
 
 > [webpack build cache](https://webpack.js.org/configuration/other-options/#cache)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDIxNTE4MjRdfQ==
+eyJoaXN0b3J5IjpbNDAyNzg2NzAzXX0=
 -->

@@ -39,11 +39,16 @@ tar -czf /path/to/archive.zip /src/to/be/zipped
 tar -xzf /path/to/archive.zip -C /
 ```
 
+## Network
 
-
+```bash
+# check whether the site is healthy
+curl -if https://xxx.xx/health-check
+```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzg5OTg3MDUsLTE5MjY5MDMzNjgsLT
-MzNjA3MTIsMjEyNjI1MDM3NywzNTkyODM5MDNdfQ==
+eyJoaXN0b3J5IjpbMTk2Njk3MDU5NSwtMTMzODk5ODcwNSwtMT
+kyNjkwMzM2OCwtMzM2MDcxMiwyMTI2MjUwMzc3LDM1OTI4Mzkw
+M119
 -->

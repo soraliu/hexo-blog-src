@@ -96,8 +96,9 @@ EBS只支持 `ReadWriteOnly`, EFS支持 `ReadWriteMany`，由于我们的pipelin
 
 ### Resources
 
-> [webpack build cache](https://webpack.js.org/configuration/other-options/#cache)
+- [webpack build cache](https://webpack.js.org/configuration/other-options/#cache)
+- [tekton](https://github.com/tektoncd/pipeline/tree/master/docs)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTQwNDIxMDQsLTE1MjI3MDAzNDJdfQ
+eyJoaXN0b3J5IjpbLTEzMTYxMjgwMTMsLTE1MjI3MDAzNDJdfQ
 ==
 -->

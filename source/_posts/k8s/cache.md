@@ -22,8 +22,81 @@ EBS只支持 `ReadWriteOnly`, EFS支持 `ReadWriteMany`，由于我们的pipelin
 > [webpack build cache](https://webpack.js.org/configuration/other-options/#cache)
 
 ```yaml
+  steps:
+  - name: restore-cache
+    image: 918323888678.dkr.ecr.ap-northeast-1.amazonaws.com/amazonlinux-cache
+    workingDir: /workspace/src
+    resources:
+      requests:
+        cpu: 2000m
+    command:
+    - /bin/sh
+    args:
+    - -c
+    - |
+      mkdir -p ${CACHE_FOLDER}
+      export BUCKET_URL=s3://bnbstatic-archive
+      # aws s3 cp ${BUCKET_URL}/$(inputs.params.REPO_NAME)/${NODE_MODULES_TAR_NAME} ${CACHE_FOLDER}/${NODE_MODULES_TAR_NAME} || true
+      aws s3 cp ${BUCKET_URL}/$(inputs.params.REPO_NAME)/${BUILD_FILE_TAR_NAME} ${CACHE_FOLDER}/${BUILD_FILE_TAR_NAME} || true
+
+      # tar -xf ${CACHE_FOLDER}/${NODE_MODULES_TAR_NAME} -C / || true
+      tar -xf ${CACHE_FOLDER}/${BUILD_FILE_TAR_NAME} -C / || true
+
+  - name: build-from-src
+    volumeMounts:
+    - name: npmrc
+      mountPath: /builder/home/
+    image: node:12
+    workingDir: /workspace/src
+    resources:
+      requests:
+        cpu: 4000m
+    command:
+    - /bin/sh
+    args:
+    - -c
+    - |
+      # [ -d /workspace/src/node_modules ] && echo "node_modules has been restored from cache" || echo "node_modules cache not found"
+      [ -d /workspace/src/$(inputs.params.pathToBuildCache) ] && echo "$(inputs.params.pathToBuildCache) has been restored from cache\n" || echo "$(inputs.params.pathToBuildCache) cache not found\n"
+      echo "start building..."
+
+      $(inputs.params.buildCommands)
+
+  - name: rebuild-cache
+    image: 918323888678.dkr.ecr.ap-northeast-1.amazonaws.com/amazonlinux-cache
+    workingDir: /workspace/src
+    resources:
+      requests:
+        cpu: 2000m
+    env:
+    - name: AWS_DEFAULT_REGION
+      value: ap-northeast-1
+    command:
+    - /bin/sh
+    args:
+    - -c
+    - |
+      # check if skip
+      if [ "$(inputs.params.skipRebuildCache)" == "true" ]; then
+        echo 'rebuild cache is skipped'
+        exit 0
+      fi
+
+      # tar
+      export SRC_FOLDER=/workspace/src
+      export NODE_MODULES_FOLDER=${SRC_FOLDER}/node_modules
+      export BUILD_FOLDER=${SRC_FOLDER}/$(inputs.params.pathToBuildCache)
+
+      mkdir -p ${CACHE_FOLDER}
+      tar -cf ${CACHE_FOLDER}/${NODE_MODULES_TAR_NAME} ${NODE_MODULES_FOLDER} || true
+      tar -cf ${CACHE_FOLDER}/${BUILD_FILE_TAR_NAME} ${BUILD_FOLDER} || true
+
+      # upload
+      export BUCKET_URL=s3://bnbstatic-archive
+      # aws s3 cp ${CACHE_FOLDER}/${NODE_MODULES_TAR_NAME} ${BUCKET_URL}/$(inputs.params.REPO_NAME)/${NODE_MODULES_TAR_NAME}
+      aws s3 cp ${CACHE_FOLDER}/${BUILD_FILE_TAR_NAME} ${BUCKET_URL}/$(inputs.params.REPO_NAME)/${BUILD_FILE_TAR_NAME}
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzExMTI3NSwtMTUyMjcwMDM0Ml19
+eyJoaXN0b3J5IjpbMTM3MTY3MzAwMSwtMTUyMjcwMDM0Ml19
 -->

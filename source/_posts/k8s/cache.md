@@ -6,7 +6,12 @@ tag:
 - pipeline
 ---
 
+## About Cache
 
+
+### The cache of CRA
+
+> [webpack build cache](https://webpack.js.org/configuration/other-options/#cache)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxNDIwNDA3MV19
+eyJoaXN0b3J5IjpbMTk4NDEwODE4NV19
 -->

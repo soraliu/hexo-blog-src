@@ -1,7 +1,7 @@
 ---
 title: k8s pvc subPath
 date: 2019-12-01 18:41:03
-tag:
+tags:
 - k8s
 - volume
 - subPath
@@ -43,6 +43,6 @@ spec:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjQ5MzE3NDgsMjgzMjAwODM1LDEzNz
-IwODIxNTFdfQ==
+eyJoaXN0b3J5IjpbLTEyODg2OTg1MTcsLTE1NjQ5MzE3NDgsMj
+gzMjAwODM1LDEzNzIwODIxNTFdfQ==
 -->

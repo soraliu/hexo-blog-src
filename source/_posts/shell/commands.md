@@ -46,9 +46,15 @@ tar -xzf /path/to/archive.zip -C /
 curl -if https://xxx.xx/health-check
 ```
 
+## String
 
+```bash
+
+# get Add and Modified files
+git diff-tree --no-commit-id --name-status -r HEAD | grep '^[AM]' | cut -f 2
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2Njk3MDU5NSwtMTMzODk5ODcwNSwtMT
-kyNjkwMzM2OCwtMzM2MDcxMiwyMTI2MjUwMzc3LDM1OTI4Mzkw
-M119
+eyJoaXN0b3J5IjpbLTE0MjQ0NDk0NzYsMTk2Njk3MDU5NSwtMT
+MzODk5ODcwNSwtMTkyNjkwMzM2OCwtMzM2MDcxMiwyMTI2MjUw
+Mzc3LDM1OTI4MzkwM119
 -->

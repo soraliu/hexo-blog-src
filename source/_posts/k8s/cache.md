@@ -1,7 +1,7 @@
 ---
 title: The Cache of React Pipeline
 date: 2019-12-02 11:41:02
-tag:
+tags:
 - cache
 - pipeline
 ---
@@ -99,6 +99,6 @@ EBS只支持 `ReadWriteOnly`, EFS支持 `ReadWriteMany`，由于我们的pipelin
 - [webpack build cache](https://webpack.js.org/configuration/other-options/#cache)
 - [tekton](https://github.com/tektoncd/pipeline/tree/master/docs)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTYxMjgwMTMsLTE1MjI3MDAzNDJdfQ
-==
+eyJoaXN0b3J5IjpbLTc3NDQ4MzMyNiwtMTMxNjEyODAxMywtMT
+UyMjcwMDM0Ml19
 -->

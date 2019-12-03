@@ -13,7 +13,8 @@ git clone --depth 1 https://github.com/xxx/yyy.git
 
 But there is no more messages about commit history. How to resolve it?
 
-
+```bash
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODE3OTI2MjUxXX0=
+eyJoaXN0b3J5IjpbLTE1NzY2OTIxNDNdfQ==
 -->

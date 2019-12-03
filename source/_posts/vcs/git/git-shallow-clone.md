@@ -7,7 +7,13 @@ tags:
 
 ## How to clone a commit from a heavy repo ?
 
+```bash
+git clone --depth 1 https://github.com/xxx/yyy.git
+```
+
+But there is no more messages about commit history. How to resolve it?
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0MzExOTk0Nl19
+eyJoaXN0b3J5IjpbODE3OTI2MjUxXX0=
 -->

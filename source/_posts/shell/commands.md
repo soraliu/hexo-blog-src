@@ -53,13 +53,18 @@ curl -if https://xxx.xx/health-check
   # get Add and Modified files
 git diff-tree --no-commit-id --name-status -r HEAD | grep '^[AM]' | cut -f 2
 
+# rm last substring
+filename=path-to-test-dev
+str=$(echo ${filename%-*})
+# path-to-test
+echo $str
 
 # regex
 [[ "1234" =~ ^12 ]] && echo y
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwNzUwMDQzOSwtMTA0NjkxMzMzOSwtOD
-MxNjA0MjcxLDE5NjY5NzA1OTUsLTEzMzg5OTg3MDUsLTE5MjY5
-MDMzNjgsLTMzNjA3MTIsMjEyNjI1MDM3NywzNTkyODM5MDNdfQ
-==
+eyJoaXN0b3J5IjpbLTExNjk5NjEzOTAsLTEwNDY5MTMzMzksLT
+gzMTYwNDI3MSwxOTY2OTcwNTk1LC0xMzM4OTk4NzA1LC0xOTI2
+OTAzMzY4LC0zMzYwNzEyLDIxMjYyNTAzNzcsMzU5MjgzOTAzXX
+0=
 -->

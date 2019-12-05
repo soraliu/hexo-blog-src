@@ -49,6 +49,9 @@ curl -if https://xxx.xx/health-check
 ## String
 
 ```bash
+# base
+echo ${str:star} 或 echo ${str:开始索引:长度} 开始索引为0
+
 # cut
   # get Add and Modified files
 git diff-tree --no-commit-id --name-status -r HEAD | grep '^[AM]' | cut -f 2
@@ -63,8 +66,8 @@ echo $str
 [[ "1234" =~ ^12 ]] && echo y
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjk5NjEzOTAsLTEwNDY5MTMzMzksLT
-gzMTYwNDI3MSwxOTY2OTcwNTk1LC0xMzM4OTk4NzA1LC0xOTI2
-OTAzMzY4LC0zMzYwNzEyLDIxMjYyNTAzNzcsMzU5MjgzOTAzXX
-0=
+eyJoaXN0b3J5IjpbLTEwOTMyNTA0OTcsLTExNjk5NjEzOTAsLT
+EwNDY5MTMzMzksLTgzMTYwNDI3MSwxOTY2OTcwNTk1LC0xMzM4
+OTk4NzA1LC0xOTI2OTAzMzY4LC0zMzYwNzEyLDIxMjYyNTAzNz
+csMzU5MjgzOTAzXX0=
 -->

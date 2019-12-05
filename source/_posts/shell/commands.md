@@ -52,8 +52,9 @@ curl -if https://xxx.xx/health-check
 # base
 # echo ${str:start-index} or echo ${str:start-index:length}
 str='12345'
-echo ${str: -2} # 45
-
+echo ${str:2} # 345
+echo ${str:2:1} # 3
+echo ${str: -2} # 45(there is a space beteew ':' and '-')
 
 # cut
   # get Add and Modified files
@@ -69,7 +70,7 @@ echo $str
 [[ "1234" =~ ^12 ]] && echo y
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5OTg0MzczNiwtMTE2OTk2MTM5MCwtMT
+eyJoaXN0b3J5IjpbMTcyMTgwMTk2MiwtMTE2OTk2MTM5MCwtMT
 A0NjkxMzMzOSwtODMxNjA0MjcxLDE5NjY5NzA1OTUsLTEzMzg5
 OTg3MDUsLTE5MjY5MDMzNjgsLTMzNjA3MTIsMjEyNjI1MDM3Ny
 wzNTkyODM5MDNdfQ==

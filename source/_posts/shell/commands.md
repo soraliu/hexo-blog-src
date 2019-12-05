@@ -54,10 +54,10 @@ curl -if https://xxx.xx/health-check
 git diff-tree --no-commit-id --name-status -r HEAD | grep '^[AM]' | cut -f 2
 
 # regex
-
+[[ "1234" =~ ^12 ]] && echo y
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDcyOTM2MzMsLTgzMTYwNDI3MSwxOT
+eyJoaXN0b3J5IjpbLTEwNDY5MTMzMzksLTgzMTYwNDI3MSwxOT
 Y2OTcwNTk1LC0xMzM4OTk4NzA1LC0xOTI2OTAzMzY4LC0zMzYw
 NzEyLDIxMjYyNTAzNzcsMzU5MjgzOTAzXX0=
 -->

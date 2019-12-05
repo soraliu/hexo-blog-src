@@ -52,9 +52,12 @@ curl -if https://xxx.xx/health-check
 # cut
   # get Add and Modified files
 git diff-tree --no-commit-id --name-status -r HEAD | grep '^[AM]' | cut -f 2
+
+# regex
+
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzMTYwNDI3MSwxOTY2OTcwNTk1LC0xMz
-M4OTk4NzA1LC0xOTI2OTAzMzY4LC0zMzYwNzEyLDIxMjYyNTAz
-NzcsMzU5MjgzOTAzXX0=
+eyJoaXN0b3J5IjpbLTEyMDcyOTM2MzMsLTgzMTYwNDI3MSwxOT
+Y2OTcwNTk1LC0xMzM4OTk4NzA1LC0xOTI2OTAzMzY4LC0zMzYw
+NzEyLDIxMjYyNTAzNzcsMzU5MjgzOTAzXX0=
 -->

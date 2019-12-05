@@ -50,7 +50,10 @@ curl -if https://xxx.xx/health-check
 
 ```bash
 # base
-echo ${str:star} 或 echo ${str:开始索引:长度} 开始索引为0
+# echo ${str:start-index} or echo ${str:start-index:length}
+str='12345'
+echo ${str: -2} # 45
+
 
 # cut
   # get Add and Modified files
@@ -66,8 +69,8 @@ echo $str
 [[ "1234" =~ ^12 ]] && echo y
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTMyNTA0OTcsLTExNjk5NjEzOTAsLT
-EwNDY5MTMzMzksLTgzMTYwNDI3MSwxOTY2OTcwNTk1LC0xMzM4
-OTk4NzA1LC0xOTI2OTAzMzY4LC0zMzYwNzEyLDIxMjYyNTAzNz
-csMzU5MjgzOTAzXX0=
+eyJoaXN0b3J5IjpbLTY5OTg0MzczNiwtMTE2OTk2MTM5MCwtMT
+A0NjkxMzMzOSwtODMxNjA0MjcxLDE5NjY5NzA1OTUsLTEzMzg5
+OTg3MDUsLTE5MjY5MDMzNjgsLTMzNjA3MTIsMjEyNjI1MDM3Ny
+wzNTkyODM5MDNdfQ==
 -->

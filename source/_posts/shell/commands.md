@@ -6,6 +6,14 @@ tag:
 - command
 ---
 
+## Traverse
+```bash
+# read lines from file
+while read line; do
+  echo $line
+done < /path/to/file
+```
+
 ## Volume
 
 ```bash
@@ -80,8 +88,8 @@ trim() {
 trim ' 123 1221  '
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzMzA5MzgyMywxNzIxODAxOTYyLC0xMT
-Y5OTYxMzkwLC0xMDQ2OTEzMzM5LC04MzE2MDQyNzEsMTk2Njk3
-MDU5NSwtMTMzODk5ODcwNSwtMTkyNjkwMzM2OCwtMzM2MDcxMi
-wyMTI2MjUwMzc3LDM1OTI4MzkwM119
+eyJoaXN0b3J5IjpbODY2ODU4NTUwLDE3MjE4MDE5NjIsLTExNj
+k5NjEzOTAsLTEwNDY5MTMzMzksLTgzMTYwNDI3MSwxOTY2OTcw
+NTk1LC0xMzM4OTk4NzA1LC0xOTI2OTAzMzY4LC0zMzYwNzEyLD
+IxMjYyNTAzNzcsMzU5MjgzOTAzXX0=
 -->

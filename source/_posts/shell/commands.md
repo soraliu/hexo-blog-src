@@ -68,10 +68,20 @@ echo $str
 
 # regex
 [[ "1234" =~ ^12 ]] && echo y
+
+# trim
+trim() {
+    local var="$*"
+    var="${var#"${var%%[![:space:]]*}"}"
+    var="${var%"${var##*[![:space:]]}"}"
+    echo -n "$var"
+}
+# 123 1221
+trim ' 123 1221  '
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyMTgwMTk2MiwtMTE2OTk2MTM5MCwtMT
-A0NjkxMzMzOSwtODMxNjA0MjcxLDE5NjY5NzA1OTUsLTEzMzg5
-OTg3MDUsLTE5MjY5MDMzNjgsLTMzNjA3MTIsMjEyNjI1MDM3Ny
-wzNTkyODM5MDNdfQ==
+eyJoaXN0b3J5IjpbMTMzMzA5MzgyMywxNzIxODAxOTYyLC0xMT
+Y5OTYxMzkwLC0xMDQ2OTEzMzM5LC04MzE2MDQyNzEsMTk2Njk3
+MDU5NSwtMTMzODk5ODcwNSwtMTkyNjkwMzM2OCwtMzM2MDcxMi
+wyMTI2MjUwMzc3LDM1OTI4MzkwM119
 -->

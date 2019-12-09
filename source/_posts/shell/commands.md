@@ -95,9 +95,13 @@ trim ' 123 1221  '
 # <(command) 或 >(command)
 cat <(ls)
 ls > >(cat)
+
+while read -r line; do
+  echo "$line"
+done < <(ls)
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0MzUyMzAyNiw4NjY4NTg1NTAsMTcyMT
+eyJoaXN0b3J5IjpbLTIxNTczNjE0NSw4NjY4NTg1NTAsMTcyMT
 gwMTk2MiwtMTE2OTk2MTM5MCwtMTA0NjkxMzMzOSwtODMxNjA0
 MjcxLDE5NjY5NzA1OTUsLTEzMzg5OTg3MDUsLTE5MjY5MDMzNj
 gsLTMzNjA3MTIsMjEyNjI1MDM3NywzNTkyODM5MDNdfQ==

@@ -87,9 +87,20 @@ trim() {
 # 123 1221
 trim ' 123 1221  '
 ```
+
+## Process Subsititution
+
+```bash
+# grammar
+# <(command) 或 `>(command)`
+#把<(ls)当一个临时文件，文件内容是ls的结果，cat这个临时文件
+cat <(ls)
+#把>(cat)当成临时文件，ls的结果重定向到这个文件，最后这个文件被cat
+ls > >(cat)
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODY2ODU4NTUwLDE3MjE4MDE5NjIsLTExNj
-k5NjEzOTAsLTEwNDY5MTMzMzksLTgzMTYwNDI3MSwxOTY2OTcw
-NTk1LC0xMzM4OTk4NzA1LC0xOTI2OTAzMzY4LC0zMzYwNzEyLD
-IxMjYyNTAzNzcsMzU5MjgzOTAzXX0=
+eyJoaXN0b3J5IjpbLTg2NzQwMTk5MCw4NjY4NTg1NTAsMTcyMT
+gwMTk2MiwtMTE2OTk2MTM5MCwtMTA0NjkxMzMzOSwtODMxNjA0
+MjcxLDE5NjY5NzA1OTUsLTEzMzg5OTg3MDUsLTE5MjY5MDMzNj
+gsLTMzNjA3MTIsMjEyNjI1MDM3NywzNTkyODM5MDNdfQ==
 -->

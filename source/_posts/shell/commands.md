@@ -91,10 +91,16 @@ trim ' 123 1221  '
 ## JSON
 
 ```bash
+# get json value
 JSON='[{"a": "line\nnewline"}, {"a": "line1\nnewline"}]'
 while read line; do
 	echo $line | base64 --decode
 done < <(echo $JSON | jq -r ".[].a | @base64")
+
+
+# convert string to JSON
+jq -aRs . <<< 'line
+newline'
 ```
 
 ## Process Subsititution
@@ -110,9 +116,9 @@ while read -r line; do
 done < <(ls)
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0NjgwNjA4MCwtMjE1NzM2MTQ1LDg2Nj
-g1ODU1MCwxNzIxODAxOTYyLC0xMTY5OTYxMzkwLC0xMDQ2OTEz
-MzM5LC04MzE2MDQyNzEsMTk2Njk3MDU5NSwtMTMzODk5ODcwNS
-wtMTkyNjkwMzM2OCwtMzM2MDcxMiwyMTI2MjUwMzc3LDM1OTI4
-MzkwM119
+eyJoaXN0b3J5IjpbMjAwMTAzMDc2LC0yNDY4MDYwODAsLTIxNT
+czNjE0NSw4NjY4NTg1NTAsMTcyMTgwMTk2MiwtMTE2OTk2MTM5
+MCwtMTA0NjkxMzMzOSwtODMxNjA0MjcxLDE5NjY5NzA1OTUsLT
+EzMzg5OTg3MDUsLTE5MjY5MDMzNjgsLTMzNjA3MTIsMjEyNjI1
+MDM3NywzNTkyODM5MDNdfQ==
 -->

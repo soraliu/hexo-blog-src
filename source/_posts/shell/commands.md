@@ -52,6 +52,9 @@ tar -xzf /path/to/archive.zip -C /
 ```bash
 # check whether the site is healthy
 curl -if https://xxx.xx/health-check
+
+# curl: (48) An unknown option was passed in to libcurl
+apk add curl-dev
 ```
 
 ## String
@@ -125,9 +128,9 @@ while read -r line; do
 done < <(ls)
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0ODU4MjQ3MywtMjQ2ODA2MDgwLC0yMT
-U3MzYxNDUsODY2ODU4NTUwLDE3MjE4MDE5NjIsLTExNjk5NjEz
-OTAsLTEwNDY5MTMzMzksLTgzMTYwNDI3MSwxOTY2OTcwNTk1LC
-0xMzM4OTk4NzA1LC0xOTI2OTAzMzY4LC0zMzYwNzEyLDIxMjYy
-NTAzNzcsMzU5MjgzOTAzXX0=
+eyJoaXN0b3J5IjpbNTcwODQxOTk0LC0yNDY4MDYwODAsLTIxNT
+czNjE0NSw4NjY4NTg1NTAsMTcyMTgwMTk2MiwtMTE2OTk2MTM5
+MCwtMTA0NjkxMzMzOSwtODMxNjA0MjcxLDE5NjY5NzA1OTUsLT
+EzMzg5OTg3MDUsLTE5MjY5MDMzNjgsLTMzNjA3MTIsMjEyNjI1
+MDM3NywzNTkyODM5MDNdfQ==
 -->

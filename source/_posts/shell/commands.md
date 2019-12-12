@@ -88,6 +88,13 @@ trim() {
 trim ' 123 1221  '
 ```
 
+## JSON
+
+```bash
+JSON='[{"a": "line\nnewline"}, {"a": "line1\nnewline1"}]'
+echo $JSON | jq -r ".a | @base64"
+```
+
 ## Process Subsititution
 
 ```bash
@@ -101,8 +108,9 @@ while read -r line; do
 done < <(ls)
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNTczNjE0NSw4NjY4NTg1NTAsMTcyMT
-gwMTk2MiwtMTE2OTk2MTM5MCwtMTA0NjkxMzMzOSwtODMxNjA0
-MjcxLDE5NjY5NzA1OTUsLTEzMzg5OTg3MDUsLTE5MjY5MDMzNj
-gsLTMzNjA3MTIsMjEyNjI1MDM3NywzNTkyODM5MDNdfQ==
+eyJoaXN0b3J5IjpbLTExMjMyNDMyODcsLTIxNTczNjE0NSw4Nj
+Y4NTg1NTAsMTcyMTgwMTk2MiwtMTE2OTk2MTM5MCwtMTA0Njkx
+MzMzOSwtODMxNjA0MjcxLDE5NjY5NzA1OTUsLTEzMzg5OTg3MD
+UsLTE5MjY5MDMzNjgsLTMzNjA3MTIsMjEyNjI1MDM3NywzNTky
+ODM5MDNdfQ==
 -->

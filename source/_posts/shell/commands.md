@@ -106,6 +106,12 @@ newline'
 JSON_STRING='{"bucketname":"'"$BUCKET_NAME"'","objectname":"'"$OBJECT_NAME"'","targetlocation":"'"$TARGET_LOCATION"'"}'
 ```
 
+## Date
+
+```bash
+date -D "2019-12-11T07:25:34Z" "+%Y-%m-%d %H:%M:%S"
+```
+
 ## Process Subsititution
 
 ```bash
@@ -119,9 +125,9 @@ while read -r line; do
 done < <(ls)
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTIzODMxMzIxLC0yNDY4MDYwODAsLTIxNT
-czNjE0NSw4NjY4NTg1NTAsMTcyMTgwMTk2MiwtMTE2OTk2MTM5
-MCwtMTA0NjkxMzMzOSwtODMxNjA0MjcxLDE5NjY5NzA1OTUsLT
-EzMzg5OTg3MDUsLTE5MjY5MDMzNjgsLTMzNjA3MTIsMjEyNjI1
-MDM3NywzNTkyODM5MDNdfQ==
+eyJoaXN0b3J5IjpbMTM0ODU4MjQ3MywtMjQ2ODA2MDgwLC0yMT
+U3MzYxNDUsODY2ODU4NTUwLDE3MjE4MDE5NjIsLTExNjk5NjEz
+OTAsLTEwNDY5MTMzMzksLTgzMTYwNDI3MSwxOTY2OTcwNTk1LC
+0xMzM4OTk4NzA1LC0xOTI2OTAzMzY4LC0zMzYwNzEyLDIxMjYy
+NTAzNzcsMzU5MjgzOTAzXX0=
 -->

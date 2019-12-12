@@ -101,6 +101,9 @@ done < <(echo $JSON | jq -r ".[].a | @base64")
 # convert string to JSON
 jq -aRs . <<< 'line
 newline'
+
+# use variable as JSON string
+JSON_STRING='{"bucketname":"'"$BUCKET_NAME"'","objectname":"'"$OBJECT_NAME"'","targetlocation":"'"$TARGET_LOCATION"'"}'
 ```
 
 ## Process Subsititution
@@ -116,7 +119,7 @@ while read -r line; do
 done < <(ls)
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwMTAzMDc2LC0yNDY4MDYwODAsLTIxNT
+eyJoaXN0b3J5IjpbNTIzODMxMzIxLC0yNDY4MDYwODAsLTIxNT
 czNjE0NSw4NjY4NTg1NTAsMTcyMTgwMTk2MiwtMTE2OTk2MTM5
 MCwtMTA0NjkxMzMzOSwtODMxNjA0MjcxLDE5NjY5NzA1OTUsLT
 EzMzg5OTg3MDUsLTE5MjY5MDMzNjgsLTMzNjA3MTIsMjEyNjI1

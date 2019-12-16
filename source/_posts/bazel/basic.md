@@ -12,6 +12,10 @@ tags:
 - Repositories
 - Packages
 - Targets
+	- files
+		- source files
+		- generated files
+	- rules
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyMDc0MDU5NywtMjI3NzM5MjUwXX0=
+eyJoaXN0b3J5IjpbLTYyMTU0NDI5OSwtMjI3NzM5MjUwXX0=
 -->

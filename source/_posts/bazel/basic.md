@@ -6,7 +6,12 @@ tags:
 - build cache
 ---
 
+## Concepts and Terminology
 
+- Workspace
+- Repositories
+- Packages
+- Targets
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzcyOTUxOTE0LC0yMjc3MzkyNTBdfQ==
+eyJoaXN0b3J5IjpbMTQyMDc0MDU5NywtMjI3NzM5MjUwXX0=
 -->

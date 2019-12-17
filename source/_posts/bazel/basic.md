@@ -17,8 +17,8 @@ tags:
 		- generated files
 	- rules
 - Labels
-	- labels belones to only the first parent package(otherwise, it will throw a error "
+	- labels belones to only the first parent package(otherwise, it will throw a error "crosses a package boundary"
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3NDM4NTU5MywtNjIxNTQ0Mjk5LC0yMj
-c3MzkyNTBdfQ==
+eyJoaXN0b3J5IjpbNDI1NzQyMCwtNjIxNTQ0Mjk5LC0yMjc3Mz
+kyNTBdfQ==
 -->

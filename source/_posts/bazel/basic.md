@@ -16,6 +16,9 @@ tags:
 		- source files
 		- generated files
 	- rules
+- Labels
+	- labels belones to only the first parent package(otherwise, it will throw a error "
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyMTU0NDI5OSwtMjI3NzM5MjUwXX0=
+eyJoaXN0b3J5IjpbLTc3NDM4NTU5MywtNjIxNTQ0Mjk5LC0yMj
+c3MzkyNTBdfQ==
 -->

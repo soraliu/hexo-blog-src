@@ -57,7 +57,8 @@ curl -if https://xxx.xx/health-check
 apk add curl-dev
 
 # how to test gateway
-kubectl -n istio-system port-forward svc/istio-ingressgateway 
+kubectl -n istio-system port-forward svc/istio-ingressgateway 3000:80
+curl -H "Host: www.xxx.com" http://localhost:3000
 ```
 
 ## String
@@ -131,9 +132,9 @@ while read -r line; do
 done < <(ls)
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyNjkzNDkxMyw1NzA4NDE5OTQsLTI0Nj
-gwNjA4MCwtMjE1NzM2MTQ1LDg2Njg1ODU1MCwxNzIxODAxOTYy
-LC0xMTY5OTYxMzkwLC0xMDQ2OTEzMzM5LC04MzE2MDQyNzEsMT
-k2Njk3MDU5NSwtMTMzODk5ODcwNSwtMTkyNjkwMzM2OCwtMzM2
-MDcxMiwyMTI2MjUwMzc3LDM1OTI4MzkwM119
+eyJoaXN0b3J5IjpbLTE5Nzg2MDQ5ODcsNTcwODQxOTk0LC0yND
+Y4MDYwODAsLTIxNTczNjE0NSw4NjY4NTg1NTAsMTcyMTgwMTk2
+MiwtMTE2OTk2MTM5MCwtMTA0NjkxMzMzOSwtODMxNjA0MjcxLD
+E5NjY5NzA1OTUsLTEzMzg5OTg3MDUsLTE5MjY5MDMzNjgsLTMz
+NjA3MTIsMjEyNjI1MDM3NywzNTkyODM5MDNdfQ==
 -->

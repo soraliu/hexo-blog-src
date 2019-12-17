@@ -55,6 +55,9 @@ curl -if https://xxx.xx/health-check
 
 # curl: (48) An unknown option was passed in to libcurl
 apk add curl-dev
+
+# how to test gateway
+kubectl -n istio-system port-forward svc/istio-ingressgateway 
 ```
 
 ## String
@@ -128,9 +131,9 @@ while read -r line; do
 done < <(ls)
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTcwODQxOTk0LC0yNDY4MDYwODAsLTIxNT
-czNjE0NSw4NjY4NTg1NTAsMTcyMTgwMTk2MiwtMTE2OTk2MTM5
-MCwtMTA0NjkxMzMzOSwtODMxNjA0MjcxLDE5NjY5NzA1OTUsLT
-EzMzg5OTg3MDUsLTE5MjY5MDMzNjgsLTMzNjA3MTIsMjEyNjI1
-MDM3NywzNTkyODM5MDNdfQ==
+eyJoaXN0b3J5IjpbMTkyNjkzNDkxMyw1NzA4NDE5OTQsLTI0Nj
+gwNjA4MCwtMjE1NzM2MTQ1LDg2Njg1ODU1MCwxNzIxODAxOTYy
+LC0xMTY5OTYxMzkwLC0xMDQ2OTEzMzM5LC04MzE2MDQyNzEsMT
+k2Njk3MDU5NSwtMTMzODk5ODcwNSwtMTkyNjkwMzM2OCwtMzM2
+MDcxMiwyMTI2MjUwMzc3LDM1OTI4MzkwM119
 -->

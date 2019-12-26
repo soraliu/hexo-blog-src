@@ -31,8 +31,11 @@ tags:
 
 > Both dependency attributes and output attributes take in label values.
 
-###
+#### Private Attribute
+> Sometimes we want to not only provide a default value, but prevent the user from overriding this default. To do this, you can make the attribute _private_ by giving it a name that begins with an underscore (`_`). Private attributes must have default values. It generally only makes sense to use private attributes for implicit dependencies.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1NjQ5Mjg1NCwtMTMyNzg5MTg0MSw0Mj
+eyJoaXN0b3J5IjpbMjA1ODk1OTM3NiwtMTMyNzg5MTg0MSw0Mj
 U3NDIwLC02MjE1NDQyOTksLTIyNzczOTI1MF19
 -->

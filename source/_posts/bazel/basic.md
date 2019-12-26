@@ -26,7 +26,11 @@ tags:
 
 ### Attributes
 > -   _Dependency attributes_, such as  `attr.label`  and  `attr.label_list`, declare a dependency from the target that owns the attribute to the target whose label appears in the attribute’s value. This kind of attribute forms the basis of the target graph.
+
+> _Output attributes_, such as `attr.output` and `attr.output_list`, declare an output file that the target generates.
+
+> Both dependency attributes and output attributes take in label values.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjc0MTM5NTY3LDQyNTc0MjAsLTYyMTU0ND
-I5OSwtMjI3NzM5MjUwXX0=
+eyJoaXN0b3J5IjpbLTEzMjc4OTE4NDEsNDI1NzQyMCwtNjIxNT
+Q0Mjk5LC0yMjc3MzkyNTBdfQ==
 -->

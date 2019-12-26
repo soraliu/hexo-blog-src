@@ -35,8 +35,16 @@ tags:
 > Sometimes we want to not only provide a default value, but prevent the user from overriding this default. To do this, you can make the attribute _private_ by giving it a name that begins with an underscore (`_`). Private attributes must have default values. It generally only makes sense to use private attributes for implicit dependencies.
 
 ### Implementation Function
+
+Implementation functions take exactly one parameter: a  [rule context](https://docs.bazel.build/versions/1.2.0/skylark/lib/ctx.html), conventionally named  `ctx`. It can be used to:
+
+-   access attribute values and obtain handles on declared input and output files;
+    
+-   create actions; and
+    
+-   pass information to other targets that depend on this one, via  [providers](https://docs.bazel.build/versions/1.2.0/skylark/rules.html#providers).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1NTAwMjU2NSwyMDU4OTU5Mzc2LC0xMz
-I3ODkxODQxLDQyNTc0MjAsLTYyMTU0NDI5OSwtMjI3NzM5MjUw
-XX0=
+eyJoaXN0b3J5IjpbLTE1NTI2NTQxODIsLTQ1NTAwMjU2NSwyMD
+U4OTU5Mzc2LC0xMzI3ODkxODQxLDQyNTc0MjAsLTYyMTU0NDI5
+OSwtMjI3NzM5MjUwXX0=
 -->

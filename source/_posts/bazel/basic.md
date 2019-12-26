@@ -34,8 +34,9 @@ tags:
 #### Private Attribute
 > Sometimes we want to not only provide a default value, but prevent the user from overriding this default. To do this, you can make the attribute _private_ by giving it a name that begins with an underscore (`_`). Private attributes must have default values. It generally only makes sense to use private attributes for implicit dependencies.
 
-
+### Implementation Function
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1ODk1OTM3NiwtMTMyNzg5MTg0MSw0Mj
-U3NDIwLC02MjE1NDQyOTksLTIyNzczOTI1MF19
+eyJoaXN0b3J5IjpbLTQ1NTAwMjU2NSwyMDU4OTU5Mzc2LC0xMz
+I3ODkxODQxLDQyNTc0MjAsLTYyMTU0NDI5OSwtMjI3NzM5MjUw
+XX0=
 -->

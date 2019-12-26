@@ -21,8 +21,12 @@ tags:
 
 ## Rules
 
+### Phases
+> It will be important to understand the three phases of a build (loading, analysis and execution)
+
+### Attributes
 > -   _Dependency attributes_, such as  `attr.label`  and  `attr.label_list`, declare a dependency from the target that owns the attribute to the target whose label appears in the attribute’s value. This kind of attribute forms the basis of the target graph.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQ2NzIzNTc0LDQyNTc0MjAsLTYyMTU0ND
+eyJoaXN0b3J5IjpbNjc0MTM5NTY3LDQyNTc0MjAsLTYyMTU0ND
 I5OSwtMjI3NzM5MjUwXX0=
 -->

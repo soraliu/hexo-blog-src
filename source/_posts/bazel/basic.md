@@ -30,7 +30,9 @@ tags:
 > _Output attributes_, such as `attr.output` and `attr.output_list`, declare an output file that the target generates.
 
 > Both dependency attributes and output attributes take in label values.
+
+###
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjc4OTE4NDEsNDI1NzQyMCwtNjIxNT
-Q0Mjk5LC0yMjc3MzkyNTBdfQ==
+eyJoaXN0b3J5IjpbMTE1NjQ5Mjg1NCwtMTMyNzg5MTg0MSw0Mj
+U3NDIwLC02MjE1NDQyOTksLTIyNzczOTI1MF19
 -->

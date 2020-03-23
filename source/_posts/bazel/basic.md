@@ -43,8 +43,9 @@ Implementation functions take exactly one parameter: a  [rule context](https://d
 -   create actions; and
     
 -   pass information to other targets that depend on this one, via  [providers](https://docs.bazel.build/versions/1.2.0/skylark/rules.html#providers).
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTI2NTQxODIsLTQ1NTAwMjU2NSwyMD
-U4OTU5Mzc2LC0xMzI3ODkxODQxLDQyNTc0MjAsLTYyMTU0NDI5
-OSwtMjI3NzM5MjUwXX0=
+eyJoaXN0b3J5IjpbMjg2NTY4NTIwLC0xNTUyNjU0MTgyLC00NT
+UwMDI1NjUsMjA1ODk1OTM3NiwtMTMyNzg5MTg0MSw0MjU3NDIw
+LC02MjE1NDQyOTksLTIyNzczOTI1MF19
 -->

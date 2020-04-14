@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: lovesora's blog
+title: soraliu's blog
 subtitle: ( ´ ▽ ` )ﾉ`)
 description: a front-end developer's blog
 keywords: front-end architecture
@@ -14,7 +14,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: blog.lovesora.pro
+url: blog.soraliu.dev
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -102,10 +102,10 @@ theme: yilia
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:lovesora/hexo-blog.git
+  repo: git@github.com:soraliu/hexo-blog.git
   branch: master
 
-urlforgoogle: https://blog.lovesora.pro/
+urlforgoogle: https://blog.soraliu.dev/
 
 sitemap:
     path: sitemap.xml

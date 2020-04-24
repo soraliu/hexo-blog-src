@@ -52,9 +52,7 @@ cat /etc/ssh/ssh_config
 
 ```
 Host *
-  ForwardAgent yes
   ForwardX11 yes
-  ForwardX11Trusted yes
 ```
 
 ### 服务端 `ssh` 配置
@@ -67,8 +65,6 @@ cat /etc/ssh/sshd_config
 
 ```
 X11Forwarding yes
-X11DisplayOffset 10
-X11UseLocalhost yes
 ```
 
 ### `tmux` 配置
@@ -83,6 +79,6 @@ X11UseLocalhost yes
 - gvim
 - mosh
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTMyODc3OTksMTkzOTAzMjQ3MSw3NT
-gwNjQzNjAsMTc0MjM1NTkxOF19
+eyJoaXN0b3J5IjpbODg3MDc3MzM2LDE5MzkwMzI0NzEsNzU4MD
+Y0MzYwLDE3NDIzNTU5MThdfQ==
 -->

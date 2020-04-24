@@ -67,9 +67,32 @@ cat /etc/ssh/sshd_config
 X11Forwarding yes
 ```
 
-### `tmux` 配置
+### `~/.tmux.conf` 配置
 
 ```
+# copy to Mac OSX clipboard
+if -b 'command -v reattach-to-user-namespace > /dev/null 2>&1' 'bind y run -b "tmux save-buffer - | reattach-to-user-namespace pbcopy"'
+# copy to X11 clipboard
+if -b 'command -v xsel > /dev/null 2>&1' 'bind y run -b "tmux save-buffer - | xsel -i -b"'
+if -b '! command -v xsel > /dev/null 2>&1 && command -v xclip > /dev/null 2>&1' 'bind y run -b "tmux save-buffer - | xclip -i -selection clipboard >/dev/null 2>&1"'
+# copy to Windows clipboard
+if -b 'command -v clip.exe > /dev/null 2>&1' 'bind y run -b "tmux save-buffer - | clip.exe"'
+if -b '[ -c /dev/clipboard ]' 'bind y run -b "tmux save-buffer - > /dev/clipboard"'
+```
+
+### `~/.vimrc` 配置
+
+```vim
+" clipboard
+" 复制当前文件地址到剪切板
+set clipboard=unnamedplus               " 系统剪切板
+nmap <Leader>c :call system("xclip -i -selection c", expand("%:p"))<CR>
+
+" osx
+if !executable('xclip')
+  set clipboard=unnamed
+  nmap <Leader>c :let @+=expand('%:p')<CR>
+endif
 
 ```
 
@@ -80,6 +103,6 @@ X11Forwarding yes
 - gvim
 - mosh
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTg3NjQyNDYsMTkzOTAzMjQ3MSw3NT
-gwNjQzNjAsMTc0MjM1NTkxOF19
+eyJoaXN0b3J5IjpbLTE5Mzc0NjIzNSwxOTM5MDMyNDcxLDc1OD
+A2NDM2MCwxNzQyMzU1OTE4XX0=
 -->

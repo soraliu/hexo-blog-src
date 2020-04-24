@@ -111,8 +111,8 @@ endif
 ###  意外解决的问题
 
 - **vim 光标** 之前一直用的系统默认 `vim` 发现 `normal` 和 `insert` 相互切换时光标没办法改变(box <-> vertical var)，换成 `gvim` 这个问题就解了
-- **zsh 光标** 没启用 `X` 之前一直
+- **zsh 光标** 没启用 `X` 之前一直也无法切换光标形状，开启过后问题已解
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI2OTc3NjYzLDYyODEzMDUyNSwxOTM5MD
-MyNDcxLDc1ODA2NDM2MCwxNzQyMzU1OTE4XX0=
+eyJoaXN0b3J5IjpbLTE0Mzc2NTM3MjUsNjI4MTMwNTI1LDE5Mz
+kwMzI0NzEsNzU4MDY0MzYwLDE3NDIzNTU5MThdfQ==
 -->

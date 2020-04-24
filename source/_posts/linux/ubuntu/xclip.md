@@ -83,9 +83,9 @@ if -b '[ -c /dev/clipboard ]' 'bind y run -b "tmux save-buffer - > /dev/clipboar
 ### `~/.vimrc` 配置
 
 ```vim
-" clipboard
-" 复制当前文件地址到剪切板
-set clipboard=unnamedplus               " 系统剪切板
+" y
+set clipboard=unnamedplus
+" copy current buff of filepath to clipboard
 nmap <Leader>c :call system("xclip -i -selection c", expand("%:p"))<CR>
 
 " osx
@@ -93,7 +93,6 @@ if !executable('xclip')
   set clipboard=unnamed
   nmap <Leader>c :let @+=expand('%:p')<CR>
 endif
-
 ```
 
 ## Trouble Shooting
@@ -103,6 +102,6 @@ endif
 - gvim
 - mosh
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Mzc0NjIzNSwxOTM5MDMyNDcxLDc1OD
-A2NDM2MCwxNzQyMzU1OTE4XX0=
+eyJoaXN0b3J5IjpbLTE4NjM2NjU3MzYsMTkzOTAzMjQ3MSw3NT
+gwNjQzNjAsMTc0MjM1NTkxOF19
 -->

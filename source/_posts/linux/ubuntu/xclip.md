@@ -14,10 +14,16 @@ tags:
 
 ## 安装 (Installation)
 
+### OSX 安装 `XQuartz`
+
+> [https://www.xquartz.org/](https://www.xquartz.org/)
+
+装完之后
+
 ## 配置 (Configuration)
 
 ## Trouble Shooting
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTM2NTAyNDc4LDc1ODA2NDM2MCwxNzQyMz
-U1OTE4XX0=
+eyJoaXN0b3J5IjpbMTI0NTgzNTE2MSw3NTgwNjQzNjAsMTc0Mj
+M1NTkxOF19
 -->

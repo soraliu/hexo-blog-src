@@ -105,10 +105,9 @@ endif
 
 ### vim 配置好了之后为什么不生效?
 
-- 确认 vim `+clipboard` 已经开启，`vim --version | grep clipboard`
-- 需要使用 `gvim` （推荐  `vim-gtk`），而不是 `vim`
+- 确认 vim `+clipboard` 已经开启，`vim --version | grep clipboard`，推荐使用  `vim-gtk` 代替系统默认 `vim`
 - `mosh` 不支持 `X` 协议
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODU1NTU5NTQ3LDYyODEzMDUyNSwxOTM5MD
+eyJoaXN0b3J5IjpbMjgyNzYwNzQ3LDYyODEzMDUyNSwxOTM5MD
 MyNDcxLDc1ODA2NDM2MCwxNzQyMzU1OTE4XX0=
 -->

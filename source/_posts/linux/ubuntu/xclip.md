@@ -64,12 +64,8 @@ X11UseLocalhost yes
 ```
 
 
-### 
-
-## 配置 (Configuration)
-
 ## Trouble Shooting
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzQ1OTkyNjQsMTkzOTAzMjQ3MSw3NT
-gwNjQzNjAsMTc0MjM1NTkxOF19
+eyJoaXN0b3J5IjpbMTIxMjY1OTAwMywxOTM5MDMyNDcxLDc1OD
+A2NDM2MCwxNzQyMzU1OTE4XX0=
 -->

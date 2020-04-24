@@ -14,10 +14,10 @@ tags:
 
 ## 介绍 (Introduce)
 
-### X
+### `X`
 
-- X是协议，不是具体的某个软件
-- 
+- `X` 是协议，一个基于X的应用程序需要运行并显示内容时会连接到 `X` 服务器，开始用X协议和服务器通信
+- 图形界面并不是linux的一部分
 
 ## 安装 (Installation)
 
@@ -54,6 +54,6 @@ Host *
 
 ## Trouble Shooting
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQ3NTM3NjE4LDc1ODA2NDM2MCwxNzQyMz
-U1OTE4XX0=
+eyJoaXN0b3J5IjpbLTE4MzQzMzUzMTIsNzU4MDY0MzYwLDE3ND
+IzNTU5MThdfQ==
 -->

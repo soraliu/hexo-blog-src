@@ -16,8 +16,9 @@ tags:
 
 ### `X`
 
+- 图形界面并不是 `Linux` 的一部分，和 `Windows95` 及以后的版本就不一样了，他们的图形界面是操作系统的一部分，图形界面在系统内核中就实现了
 - `X` 是协议，一个基于X的应用程序需要运行并显示内容时会连接到 `X` 服务器，开始用X协议和服务器通信
-- 图形界面并不是linux的一部分
+- `X11` 是指 X Protocol version 11
 
 ## 安装 (Installation)
 
@@ -54,6 +55,6 @@ Host *
 
 ## Trouble Shooting
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzQzMzUzMTIsNzU4MDY0MzYwLDE3ND
+eyJoaXN0b3J5IjpbLTE5MjU5NTA1NzksNzU4MDY0MzYwLDE3ND
 IzNTU5MThdfQ==
 -->

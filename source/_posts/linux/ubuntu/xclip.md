@@ -10,7 +10,8 @@ tags:
 
 ## 需求
 
-通过 `ssh` 连远程 `ubuntu server(18.04)`时
+通过 `ssh` 连远程 `ubuntu server(18.04)` 时经常会需要通过 `vim` 编辑文件，
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU4MDY0MzYwLDE3NDIzNTU5MThdfQ==
+eyJoaXN0b3J5IjpbLTU0MTYxNTIxOSw3NTgwNjQzNjAsMTc0Mj
+M1NTkxOF19
 -->

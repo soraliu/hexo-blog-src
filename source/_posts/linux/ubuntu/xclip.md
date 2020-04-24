@@ -22,6 +22,12 @@ tags:
 
 ## 安装 (Installation)
 
+### Ubuntu 安装 `xclip`
+
+```bash
+apt install -y xclip
+```
+
 ### OSX 安装 `XQuartz`
 
 > The XQuartz project is an open-source effort to develop a version of the [X.Org X Window System](https://www.x.org/) that runs on OS X.
@@ -31,12 +37,6 @@ tags:
 - 装完之后需要重新登陆系统
 - 配置 `Application` ，将 `xterm` 替换成 `iTerm` 的运行路径 `/Applications/iTerm.app/Contents/MacOS/iTerm2` 
 - 检查是否配置成功，iTerm 内执行 `echo $DISPLAY`
-
-### Ubuntu 安装 `xclip`
-
-```bash
-apt install -y xclip
-```
 
 ## 配置 (Configuration)
 
@@ -67,7 +67,7 @@ cat /etc/ssh/sshd_config
 X11Forwarding yes
 ```
 
-### `~/.tmux.conf` 配置
+### 服务端 `~/.tmux.conf` 配置
 
 ```
 # copy to Mac OSX clipboard
@@ -80,7 +80,7 @@ if -b 'command -v clip.exe > /dev/null 2>&1' 'bind y run -b "tmux save-buffer - 
 if -b '[ -c /dev/clipboard ]' 'bind y run -b "tmux save-buffer - > /dev/clipboard"'
 ```
 
-### `~/.vimrc` 配置
+### 服务端`~/.vimrc` 配置
 
 ```vim
 " y
@@ -99,9 +99,9 @@ endif
 
 ### vim 配置好了之后为什么不生效?
 
-- gvim
-- mosh
+- 需要使用 `gvim` （推荐  `vim-gtk`），而不是 `vim`
+- `mosh` 不支持 `X` 协议
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5OTc5MDE1MywxOTM5MDMyNDcxLDc1OD
-A2NDM2MCwxNzQyMzU1OTE4XX0=
+eyJoaXN0b3J5IjpbMzAwMTg3MzkzLDE5MzkwMzI0NzEsNzU4MD
+Y0MzYwLDE3NDIzNTU5MThdfQ==
 -->

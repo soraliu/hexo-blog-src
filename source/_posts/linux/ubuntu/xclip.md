@@ -32,6 +32,14 @@ tags:
 - 配置 `Application` ，将 `xterm` 替换成 `iTerm` 的运行路径 `/Applications/iTerm.app/Contents/MacOS/iTerm2` 
 - 检查是否配置成功，iTerm 内执行 `echo $DISPLAY`
 
+### Ubuntu 安装 `xclip`
+
+```bash
+apt install -y xclip
+```
+
+## 配置 (Configuration)
+
 ### 客户端 `ssh` 配置
 
 检查是否已经启用 `X11`
@@ -63,9 +71,10 @@ X11DisplayOffset 10
 X11UseLocalhost yes
 ```
 
-
 ## Trouble Shooting
+
+### vim 配置好了之后不生效
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxMjY1OTAwMywxOTM5MDMyNDcxLDc1OD
+eyJoaXN0b3J5IjpbLTk0NjE4OTM0NywxOTM5MDMyNDcxLDc1OD
 A2NDM2MCwxNzQyMzU1OTE4XX0=
 -->

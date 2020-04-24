@@ -6,6 +6,11 @@ tags:
 - vim
 - x11
 - xclip
+```
+
+## 需求
+
+日常办公时会通过SSH去连
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0MjM1NTkxOF19
+eyJoaXN0b3J5IjpbMTE3MzA5MzEyMSwxNzQyMzU1OTE4XX0=
 -->

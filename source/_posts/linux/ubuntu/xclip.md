@@ -1,5 +1,5 @@
 ```
-title: OSX ssh Ubuntu Server 18.04 xclip 使用指南
+title: Ubuntu Server 18.04 xclip 使用指南(osx)
 date: 2020-04-24 09:48:49
 tags:
 - ubuntu
@@ -71,10 +71,18 @@ X11DisplayOffset 10
 X11UseLocalhost yes
 ```
 
+### `tmux` 配置
+
+```
+```
+
 ## Trouble Shooting
 
-### vim 配置好了之后不生效
+### vim 配置好了之后为什么不生效?
+
+- gvim
+- mosh
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0NjE4OTM0NywxOTM5MDMyNDcxLDc1OD
-A2NDM2MCwxNzQyMzU1OTE4XX0=
+eyJoaXN0b3J5IjpbLTE2MTMyODc3OTksMTkzOTAzMjQ3MSw3NT
+gwNjQzNjAsMTc0MjM1NTkxOF19
 -->

@@ -16,14 +16,16 @@ tags:
 
 ### OSX 安装 `XQuartz`
 
-> [https://www.xquartz.org/](https://www.xquartz.org/)
+> The XQuartz project is an open-source effort to develop a version of the [X.Org X Window System](https://www.x.org/) that runs on OS X.
 
-装完之后
+官方网站  [https://www.xquartz.org/](https://www.xquartz.org/)
+
+装完之后简单配置一下
 
 ## 配置 (Configuration)
 
 ## Trouble Shooting
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0NTgzNTE2MSw3NTgwNjQzNjAsMTc0Mj
+eyJoaXN0b3J5IjpbLTY2NDUzNDcyMyw3NTgwNjQzNjAsMTc0Mj
 M1NTkxOF19
 -->

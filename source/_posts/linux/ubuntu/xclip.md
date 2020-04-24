@@ -107,7 +107,11 @@ endif
 
 - 确认 vim `+clipboard` 已经开启，`vim --version | grep clipboard`，推荐使用  `vim-gtk` 代替系统默认 `vim`
 - `mosh` 不支持 `X` 协议
+
+###  意外解决了一个问题
+
+- **光标** 之前一直用的系统默认 `vim` 发现 `no  vim下常规模式和插入模式下的光标都一个样，让我非常的不习惯。特别是在括号匹配的时候常让我不知道哪个才是光标。相比而言gvim编辑模式下的竖线光标则要直观的多。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjgyNzYwNzQ3LDYyODEzMDUyNSwxOTM5MD
-MyNDcxLDc1ODA2NDM2MCwxNzQyMzU1OTE4XX0=
+eyJoaXN0b3J5IjpbLTEzMzgzODg3MzcsNjI4MTMwNTI1LDE5Mz
+kwMzI0NzEsNzU4MDY0MzYwLDE3NDIzNTU5MThdfQ==
 -->

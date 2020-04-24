@@ -22,11 +22,16 @@ tags:
 
 - 装完之后需要重新登陆系统
 - 配置 `Application` ，将 `xterm` 替换成 `iTerm` 的运行路径 `/Applications/iTerm.app/Contents/MacOS/iTerm2` 
+- 检查是否配置成功，iTerm 内执行 `echo $DISPLAY`
+
+### 
+
+### 
 
 ## 配置 (Configuration)
 
 ## Trouble Shooting
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzNzY0NDU4MSw3NTgwNjQzNjAsMTc0Mj
+eyJoaXN0b3J5IjpbLTY2OTY2NTg0Miw3NTgwNjQzNjAsMTc0Mj
 M1NTkxOF19
 -->

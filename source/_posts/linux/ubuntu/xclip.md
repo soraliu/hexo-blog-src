@@ -85,7 +85,7 @@ if -b '[ -c /dev/clipboard ]' 'bind y run -b "tmux save-buffer - > /dev/clipboar
 ```vim
 " y
 set clipboard=unnamedplus
-" copy current buff of filepath to clipboard
+" copy the filepath of current buff to clipboard
 nmap <Leader>c :call system("xclip -i -selection c", expand("%:p"))<CR>
 
 " osx
@@ -102,6 +102,6 @@ endif
 - gvim
 - mosh
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjM2NjU3MzYsMTkzOTAzMjQ3MSw3NT
-gwNjQzNjAsMTc0MjM1NTkxOF19
+eyJoaXN0b3J5IjpbMTA5OTc5MDE1MywxOTM5MDMyNDcxLDc1OD
+A2NDM2MCwxNzQyMzU1OTE4XX0=
 -->

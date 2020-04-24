@@ -80,7 +80,7 @@ if -b 'command -v clip.exe > /dev/null 2>&1' 'bind y run -b "tmux save-buffer - 
 if -b '[ -c /dev/clipboard ]' 'bind y run -b "tmux save-buffer - > /dev/clipboard"'
 ```
 
-### 服务端`~/.vimrc` 配置
+### 服务端 `~/.vimrc` 配置
 
 ```vim
 " y
@@ -102,6 +102,6 @@ endif
 - 需要使用 `gvim` （推荐  `vim-gtk`），而不是 `vim`
 - `mosh` 不支持 `X` 协议
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzAwMTg3MzkzLDE5MzkwMzI0NzEsNzU4MD
-Y0MzYwLDE3NDIzNTU5MThdfQ==
+eyJoaXN0b3J5IjpbLTI2NDc1MTIwOSwxOTM5MDMyNDcxLDc1OD
+A2NDM2MCwxNzQyMzU1OTE4XX0=
 -->

@@ -8,7 +8,7 @@ tags:
 - xclip
 ---
 
-## 需求 (Future)
+## 需求 (Feature)
 
 通过 `ssh` 连远程 `ubuntu server(18.04)` 时经常会需要通过 `vim` 编辑文件 `copy` 一些代码，或者通过 `tmux` 复制 `shell` 命令，此时如果需要 `paste` 到本地每次都需要使用鼠标选中，极其麻烦，对于键盘党来说太不友好，偶然听说 `xclip` 可以解决这个问题，于是开始了折腾。中间过程中意外解决了以前遇到的一些杂症，甚是神奇。
 
@@ -113,7 +113,7 @@ endif
 - **vim 光标** 之前一直用的系统默认 `vim` 发现 `normal` 和 `insert` 相互切换时光标没办法改变(box <-> vertical var)，换成 `gvim` 这个问题就解了
 - **zsh 光标** 没启用 `X` 之前一直也无法切换光标形状，开启过后问题已解
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1Nzg3NDc5OCwtMTQzNzY1MzcyNSw2Mj
-gxMzA1MjUsMTkzOTAzMjQ3MSw3NTgwNjQzNjAsMTc0MjM1NTkx
-OF19
+eyJoaXN0b3J5IjpbMTAxMDM4ODkxMywtMzU3ODc0Nzk4LC0xND
+M3NjUzNzI1LDYyODEzMDUyNSwxOTM5MDMyNDcxLDc1ODA2NDM2
+MCwxNzQyMzU1OTE4XX0=
 -->

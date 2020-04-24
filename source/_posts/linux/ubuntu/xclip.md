@@ -49,12 +49,25 @@ Host *
   ForwardX11Trusted yes
 ```
 
+### 服务端 `ssh` 配置
+
+```bash
+cat /etc/ssh/sshd_config
+```
+
+确认输出包含
+
+```
+
+```
+
+
 ### 
 
 ## 配置 (Configuration)
 
 ## Trouble Shooting
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjU5NTA1NzksNzU4MDY0MzYwLDE3ND
-IzNTU5MThdfQ==
+eyJoaXN0b3J5IjpbMTkzOTAzMjQ3MSw3NTgwNjQzNjAsMTc0Mj
+M1NTkxOF19
 -->

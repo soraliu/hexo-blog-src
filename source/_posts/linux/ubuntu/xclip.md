@@ -55,6 +55,12 @@ Host *
   ForwardX11 yes
 ```
 
+`ssh` 连接时添加 `-X` 参数
+
+```bash
+ssh -X root@host
+```
+
 ### 服务端 `ssh` 配置
 
 ```bash
@@ -102,6 +108,6 @@ endif
 - 需要使用 `gvim` （推荐  `vim-gtk`），而不是 `vim`
 - `mosh` 不支持 `X` 协议
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2NDc1MTIwOSwxOTM5MDMyNDcxLDc1OD
-A2NDM2MCwxNzQyMzU1OTE4XX0=
+eyJoaXN0b3J5IjpbNjI4MTMwNTI1LDE5MzkwMzI0NzEsNzU4MD
+Y0MzYwLDE3NDIzNTU5MThdfQ==
 -->

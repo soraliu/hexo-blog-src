@@ -20,12 +20,12 @@ tags:
 
 官方网站  [https://www.xquartz.org/](https://www.xquartz.org/)
 
-装完之后简单配置一下
+装完之后需要重新登陆一下简单配置一下 `Application` ，将 `xterm` 替换成 `iTerm` 的运行路径 `/Applications/iTerm.app/Contents/MacOS/iTerm2` 即可
 
 ## 配置 (Configuration)
 
 ## Trouble Shooting
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2NDUzNDcyMyw3NTgwNjQzNjAsMTc0Mj
+eyJoaXN0b3J5IjpbMTMzOTkxMzk2OCw3NTgwNjQzNjAsMTc0Mj
 M1NTkxOF19
 -->

@@ -10,7 +10,7 @@ tags:
 
 ## 需求
 
-日常办公时会通过SSH去连
+通过 `ssh` 连远程 `ubuntu server(18.04)`时
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3MzA5MzEyMSwxNzQyMzU1OTE4XX0=
+eyJoaXN0b3J5IjpbNzU4MDY0MzYwLDE3NDIzNTU5MThdfQ==
 -->

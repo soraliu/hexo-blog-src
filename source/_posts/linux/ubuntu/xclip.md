@@ -58,7 +58,9 @@ cat /etc/ssh/sshd_config
 确认输出包含
 
 ```
-
+X11Forwarding yes
+X11DisplayOffset 10
+X11UseLocalhost yes
 ```
 
 
@@ -68,6 +70,6 @@ cat /etc/ssh/sshd_config
 
 ## Trouble Shooting
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzOTAzMjQ3MSw3NTgwNjQzNjAsMTc0Mj
-M1NTkxOF19
+eyJoaXN0b3J5IjpbLTE1MzQ1OTkyNjQsMTkzOTAzMjQ3MSw3NT
+gwNjQzNjAsMTc0MjM1NTkxOF19
 -->

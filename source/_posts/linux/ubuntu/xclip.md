@@ -1,4 +1,4 @@
-```
+---
 title: Ubuntu Server 18.04 xclip 使用指南(osx)
 date: 2020-04-24 09:48:49
 tags:
@@ -6,7 +6,7 @@ tags:
 - vim
 - x11
 - xclip
-```
+---
 
 ## 需求 (Future)
 
@@ -108,6 +108,6 @@ endif
 - 需要使用 `gvim` （推荐  `vim-gtk`），而不是 `vim`
 - `mosh` 不支持 `X` 协议
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjI4MTMwNTI1LDE5MzkwMzI0NzEsNzU4MD
-Y0MzYwLDE3NDIzNTU5MThdfQ==
+eyJoaXN0b3J5IjpbLTIwMjc1OTQ5NTMsNjI4MTMwNTI1LDE5Mz
+kwMzI0NzEsNzU4MDY0MzYwLDE3NDIzNTU5MThdfQ==
 -->

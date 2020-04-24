@@ -108,10 +108,11 @@ endif
 - 确认 vim `+clipboard` 已经开启，`vim --version | grep clipboard`，推荐使用  `vim-gtk` 代替系统默认 `vim`
 - `mosh` 不支持 `X` 协议
 
-###  意外解决了一个问题
+###  意外解决的问题
 
-- **光标** 之前一直用的系统默认 `vim` 发现 `normal` 和 `insert` 相互切换时光标没办法改变(box <-> vertical var)，换成 `gvim` 这个问题就解了
+- **vim 光标** 之前一直用的系统默认 `vim` 发现 `normal` 和 `insert` 相互切换时光标没办法改变(box <-> vertical var)，换成 `gvim` 这个问题就解了
+- **zsh 光标** 没启用 `X` 之前一直
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4NDUwMDk4Nyw2MjgxMzA1MjUsMTkzOT
-AzMjQ3MSw3NTgwNjQzNjAsMTc0MjM1NTkxOF19
+eyJoaXN0b3J5IjpbMjI2OTc3NjYzLDYyODEzMDUyNSwxOTM5MD
+MyNDcxLDc1ODA2NDM2MCwxNzQyMzU1OTE4XX0=
 -->

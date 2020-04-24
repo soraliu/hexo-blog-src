@@ -70,6 +70,7 @@ X11Forwarding yes
 ### `tmux` 配置
 
 ```
+
 ```
 
 ## Trouble Shooting
@@ -79,6 +80,6 @@ X11Forwarding yes
 - gvim
 - mosh
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg3MDc3MzM2LDE5MzkwMzI0NzEsNzU4MD
-Y0MzYwLDE3NDIzNTU5MThdfQ==
+eyJoaXN0b3J5IjpbLTE0NTg3NjQyNDYsMTkzOTAzMjQ3MSw3NT
+gwNjQzNjAsMTc0MjM1NTkxOF19
 -->

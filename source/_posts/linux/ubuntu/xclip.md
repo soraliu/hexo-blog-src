@@ -24,7 +24,20 @@ tags:
 - 配置 `Application` ，将 `xterm` 替换成 `iTerm` 的运行路径 `/Applications/iTerm.app/Contents/MacOS/iTerm2` 
 - 检查是否配置成功，iTerm 内执行 `echo $DISPLAY`
 
-### 
+### 检查客户端配置
+
+确认客户端已经开启 `X11`
+
+```bash
+cat /etc/ssh/ssh_config
+```
+
+```
+Host *
+  ForwardAgent yes
+  ForwardX11 yes
+  ForwardX11Trusted yes
+```
 
 ### 
 
@@ -32,6 +45,6 @@ tags:
 
 ## Trouble Shooting
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2OTY2NTg0Miw3NTgwNjQzNjAsMTc0Mj
-M1NTkxOF19
+eyJoaXN0b3J5IjpbOTU4ODI2OTUwLDc1ODA2NDM2MCwxNzQyMz
+U1OTE4XX0=
 -->

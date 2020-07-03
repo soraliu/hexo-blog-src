@@ -3,7 +3,7 @@ title: Ubuntu Server 18.04 xclip 使用指南
 date: 2020-04-24 09:48:49
 tags:
 - ubuntu
-- vimm
+- vim
 - x11
 - xclip
 ---
@@ -113,7 +113,8 @@ endif
 - **vim 光标** 之前一直用的系统默认 `vim` 发现 `normal` 和 `insert` 相互切换时光标没办法改变(box <-> vertical var)，换成 `gvim` 这个问题就解了
 - **zsh 光标** 没启用 `X` 之前一直也无法切换光标形状，开启过后问题已解
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyODY3NjI3NSw5MDY3MTI0MTYsMTAxMD
-M4ODkxMywtMzU3ODc0Nzk4LC0xNDM3NjUzNzI1LDYyODEzMDUy
-NSwxOTM5MDMyNDcxLDc1ODA2NDM2MCwxNzQyMzU1OTE4XX0=
+eyJoaXN0b3J5IjpbOTA2NzEyNDE2LDEwMjg2NzYyNzUsOTA2Nz
+EyNDE2LDEwMTAzODg5MTMsLTM1Nzg3NDc5OCwtMTQzNzY1Mzcy
+NSw2MjgxMzA1MjUsMTkzOTAzMjQ3MSw3NTgwNjQzNjAsMTc0Mj
+M1NTkxOF19
 -->

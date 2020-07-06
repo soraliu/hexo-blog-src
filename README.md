@@ -1,7 +1,7 @@
 # Hexo Blog Src
 My Blog Source
 
-<img src="https://github.com/soraliu/hexo-blog-src/workflows/Node%20CI/badge.svg"/>
+<img src="https://github.com/lovesoraliu/hexo-blog-src/workflows/Node%20CI/badge.svg"/>
 
 # Directory
 
@@ -19,3 +19,6 @@ My Blog Source
 ▸ vcs/
 ▸ work/
 ```
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbODc3NTM4MzBdfQ==
+-->

@@ -72,8 +72,8 @@ gitment.render('comments')
 这个问题稍微复杂一点，简单一点的方案是直接替换 `gitment.browser.js`的路径
 
 ```html
-<link rel="stylesheet" href="//soraliu.github.io/gitment/style/default.css">
-<script src="//soraliu.github.io/gitment/dist/gitment.browser.js"></script>
+<link rel="stylesheet" href="//lovesoraliu.github.io/gitment/style/default.css">
+<script src="//lovesoraliu.github.io/gitment/dist/gitment.browser.js"></script>
 ```
 
 如果想要自己折腾的话略微有些麻烦，大致步骤如下
@@ -112,7 +112,7 @@ _utils.http.post('https://gh-oauth.imsun.net', {
 ```
 
 ```js
-_utils.http.post('https://gitment.soraliu.dev', {
+_utils.http.post('https://gitment.soraliu.devlovesora.pro', {
   code: code,
   client_id: client_id,
   client_secret: client_secret
@@ -134,3 +134,6 @@ _utils.http.post('https://gitment.soraliu.dev', {
 <script src="//[username].github.io/gitment/dist/gitment.browser.js"></script>
 ```
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTE5MzI0OTgzMV19
+-->

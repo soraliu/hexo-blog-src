@@ -16,6 +16,9 @@ tags:
 - 在项目根路径中添加文件 `CNAME`, 添加一行记录，不然每次git提交都会重置GitHub pages域名配置
 
 ```
-blog.soraliu.dev
+blog.soraliu.devlovesora.pro
 ```
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTE4NjQ1NzM5MTBdfQ==
+-->

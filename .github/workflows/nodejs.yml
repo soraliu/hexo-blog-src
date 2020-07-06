@@ -25,6 +25,6 @@ jobs:
       uses: peaceiris/actions-gh-pages@v2.5.0
       env:
         PERSONAL_TOKEN: ${{ secrets.GITHUB_ACTION_TOKEN }}
-        EXTERNAL_REPOSITORY: lovesora/hexo-blog
+        EXTERNAL_REPOSITORY: soraliu/hexo-blog
         PUBLISH_BRANCH: master
         PUBLISH_DIR: ./public

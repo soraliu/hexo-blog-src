@@ -5,7 +5,7 @@ menu:
 
 # SubNav
 subnav:
-  github: "https://github.com/lovesora"
+  github: "https://github.com/soraliu"
   #weibo: "#"
   #rss: "#"
   #zhihu: "#"
@@ -90,7 +90,7 @@ changyan_conf: false
 disqus: false
 
 #5、Gitment
-gitment_owner: lovesora      #你的 GitHub ID
+gitment_owner: soraliu      #你的 GitHub ID
 gitment_repo: 'hexo-blog'          #存储评论的 repo
 gitment_oauth:
   client_id: 'a99e18411625212e1e3b'           #client ID

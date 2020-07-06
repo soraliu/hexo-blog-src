@@ -1,7 +1,7 @@
 # Hexo Blog Src
 My Blog Source
 
-<img src="https://github.com/lovesora/hexo-blog-src/workflows/Node%20CI/badge.svg"/>
+<img src="https://github.com/soraliu/hexo-blog-src/workflows/Node%20CI/badge.svg"/>
 
 # Directory
 
